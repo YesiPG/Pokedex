@@ -1,22 +1,41 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <!-- Metadatos -->
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Yesica Perlaza">
-    <meta name="description" content="Aqui podras encontrar informacion de todos tus pokemon favoritos">
-    <meta name="keyword" content="pokemon,atributos,evolucion,tipo">
-    <title>Pokédex</title>
+  <!-- Metadatos -->
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="author" content="Yesica Perlaza">
+  <meta name="description" content="Aqui podras encontrar informacion de todos tus pokemon favoritos">
+  <meta name="keyword" content="pokemon,atributos,evolucion,tipo">
+  <link rel="icon" href="img/logo.png">
+  <title>Pokédex</title>
 
-    <!-- Fonts -->
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700&display=swap" rel="stylesheet">
 
-
-    <!-- Css -->
-    
+  <!-- Css -->
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
-    
+  <div class="cont-fondo">
+    <div class="cont-buscar">
+      <h1 class="titulo">POKEDEX</h1>
+      <label for="buscarP">
+      Buscar Pokemon:
+      <input type="text" name="nombre" id="buscarP">
+      </label>
+      <button class="btn-buscar">Buscar</button>
+    </div>
+  </div>
+
+  <div class="cont-info"></div>
+
+  
+  <!-- Scripts -->
+  <script src="js/main.js"></script>
 </body>
 </html>

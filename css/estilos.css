@@ -1,0 +1,79 @@
+:root{
+    --first-color: #ff0000;
+    --second-color: #000000;
+    --third-color: #ffffff;
+    
+}
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    text-decoration: none;
+}
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.cont-fondo{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    height: 100vh;
+}
+
+.cont-buscar{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0, 0.7);
+    text-align: center;
+    z-index: 80;
+}
+
+.titulo{
+    color: var(--first-color);
+    font-size: 6rem;
+    margin-bottom: 3rem;
+}
+
+label{
+    display:block;
+    color: var(--third-color);
+    font-size: 2rem;
+}
+
+input[type="text"]{
+    display: block;
+    margin-top: 1rem;
+    border-radius: 6rem;
+    background-color: rgba(0,0,0, 0.7);
+    padding: .5rem 2rem;
+    color: var(--third-color);
+}
+
+.btn-buscar{
+    font-size: 1.9rem;
+    margin-top: 2rem;
+    padding: .5rem 3rem;
+    border-radius: .6rem;
+    cursor: pointer;
+}
+
+.btn-buscar:hover{
+    background-color: var(--first-color);
+}
