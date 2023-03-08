@@ -28966,7 +28966,7 @@
           break;
     
     default:
-        informacion.innerHTML = `El nombre "${busqueda}" no es un pokemon.`;
+        informacion.innerHTML = `<h3 class="resp">"${busqueda}" no es un pokemon, escriba de nuevo.</h3>`;
         break;
       }
   })
