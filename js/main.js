@@ -25848,7 +25848,7 @@
           </div>
         </div> `;
         break;
-  case "Glalie":
+  case "glalie":
     informacion.innerHTML = `
       <h2 class="t-pokemon">Glalie <b>N.° 0362</b></h2>
         <div class="datos-pokemon">
@@ -28959,6 +28959,4143 @@
                 <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/411.png" alt="pokemon Bastiodon">
                 <p class="parrafo-evol">Bastiodon N.° 0411<br>
                   Roca, Acero.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "burmy":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Burmy <b>N.° 0412</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/412.png" alt="pokemon Burmy">
+            <p class="parrafo">Para protegerse de los vientos fríos invernales, se cubre con un caparazón de ramas y hojas.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png" alt="pokemon Burmy">
+                <p class="parrafo-evol">Burmy N.° 0412<br>
+                  Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png" alt="pokemon Wormadam">
+                  <p class="parrafo-evol">Wormadam N.° 0413<br>
+                    Bicho, Planta.
+                  </p>
+                </div>
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/414.png" alt="pokemon Mothim">
+                  <p class="parrafo-evol">Mothim N.° 0414<br>
+                    Bicho, Volador.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0412":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Burmy <b>N.° 0412</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/412.png" alt="pokemon Burmy">
+            <p class="parrafo">Para protegerse de los vientos fríos invernales, se cubre con un caparazón de ramas y hojas.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png" alt="pokemon Burmy">
+                <p class="parrafo-evol">Burmy N.° 0412<br>
+                  Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png" alt="pokemon Wormadam">
+                  <p class="parrafo-evol">Wormadam N.° 0413<br>
+                    Bicho, Planta.
+                  </p>
+                </div>
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/414.png" alt="pokemon Mothim">
+                  <p class="parrafo-evol">Mothim N.° 0414<br>
+                    Bicho, Volador.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "wormadam":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Wormadam <b>N.° 0413</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/413.png" alt="pokemon Wormadam">
+            <p class="parrafo">Su apariencia varía según dónde evolucione. Los materiales que haya pasan a formar parte de su cuerpo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho, Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Roca, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png" alt="pokemon Burmy">
+                <p class="parrafo-evol">Burmy N.° 0412<br>
+                  Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png" alt="pokemon Wormadam">
+                  <p class="parrafo-evol">Wormadam N.° 0413<br>
+                    Bicho, Planta.
+                  </p>
+                </div>
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/414.png" alt="pokemon Mothim">
+                  <p class="parrafo-evol">Mothim N.° 0414<br>
+                    Bicho, Volador.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0413":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Wormadam <b>N.° 0413</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/413.png" alt="pokemon Wormadam">
+            <p class="parrafo">Su apariencia varía según dónde evolucione. Los materiales que haya pasan a formar parte de su cuerpo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho, Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Roca, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png" alt="pokemon Burmy">
+                <p class="parrafo-evol">Burmy N.° 0412<br>
+                  Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png" alt="pokemon Wormadam">
+                  <p class="parrafo-evol">Wormadam N.° 0413<br>
+                    Bicho, Planta.
+                  </p>
+                </div>
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/414.png" alt="pokemon Mothim">
+                  <p class="parrafo-evol">Mothim N.° 0414<br>
+                    Bicho, Volador.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "mothim":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Mothim <b>N.° 0414</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/414.png" alt="pokemon Mothim">
+            <p class="parrafo">Le encanta la miel de las flores y roba la que recoge Combee. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Electrico, Hielo, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png" alt="pokemon Burmy">
+                <p class="parrafo-evol">Burmy N.° 0412<br>
+                  Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png" alt="pokemon Wormadam">
+                  <p class="parrafo-evol">Wormadam N.° 0413<br>
+                    Bicho, Planta.
+                  </p>
+                </div>
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/414.png" alt="pokemon Mothim">
+                  <p class="parrafo-evol">Mothim N.° 0414<br>
+                    Bicho, Volador.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0414":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Mothim <b>N.° 0414</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/414.png" alt="pokemon Mothim">
+            <p class="parrafo">Le encanta la miel de las flores y roba la que recoge Combee. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Electrico, Hielo, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/412.png" alt="pokemon Burmy">
+                <p class="parrafo-evol">Burmy N.° 0412<br>
+                  Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/413.png" alt="pokemon Wormadam">
+                  <p class="parrafo-evol">Wormadam N.° 0413<br>
+                    Bicho, Planta.
+                  </p>
+                </div>
+                <div>
+                  <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/414.png" alt="pokemon Mothim">
+                  <p class="parrafo-evol">Mothim N.° 0414<br>
+                    Bicho, Volador.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "combee":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Combee <b>N.° 0415</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/415.png" alt="pokemon Combee">
+            <p class="parrafo">Cuando llega la noche, se juntan unos cien Combee y duermen formando una gran colmena.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Electrico, Hielo, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/415.png" alt="pokemon Combee">
+                <p class="parrafo-evol">Combee N.° 0415<br>
+                  Bicho, Volador.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+                <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/416.png" alt="pokemon Vespiquen">
+                <p class="parrafo-evol">Vespiquen N.° 0416<br>
+                  Bicho, Volador.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0415":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Combee <b>N.° 0415</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/415.png" alt="pokemon Combee">
+            <p class="parrafo">Cuando llega la noche, se juntan unos cien Combee y duermen formando una gran colmena.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Electrico, Hielo, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/415.png" alt="pokemon Combee">
+                <p class="parrafo-evol">Combee N.° 0415<br>
+                  Bicho, Volador.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+                <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/416.png" alt="pokemon Vespiquen">
+                <p class="parrafo-evol">Vespiquen N.° 0416<br>
+                  Bicho, Volador.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "vespiquen":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Vespiquen <b>N.° 0416</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/416.png" alt="pokemon Vespiquen">
+            <p class="parrafo">Cría larvas en los panales de su cuerpo y segrega diversas feromonas para controlarlas.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Electrico, Hielo, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/415.png" alt="pokemon Combee">
+                <p class="parrafo-evol">Combee N.° 0415<br>
+                  Bicho, Volador.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+                <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/416.png" alt="pokemon Vespiquen">
+                <p class="parrafo-evol">Vespiquen N.° 0416<br>
+                  Bicho, Volador.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0416":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Vespiquen <b>N.° 0416</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/416.png" alt="pokemon Vespiquen">
+            <p class="parrafo">Cría larvas en los panales de su cuerpo y segrega diversas feromonas para controlarlas.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Bicho, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Electrico, Hielo, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/415.png" alt="pokemon Combee">
+                <p class="parrafo-evol">Combee N.° 0415<br>
+                  Bicho, Volador.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+                <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/416.png" alt="pokemon Vespiquen">
+                <p class="parrafo-evol">Vespiquen N.° 0416<br>
+                  Bicho, Volador.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "pachirisu":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Pachirisu <b>N.° 0417</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/417.png" alt="pokemon Pachirisu">
+            <p class="parrafo">Forma parte del grupo de Pokémon que posee bolsas de electricidad en las mejillas. Descarga por la cola la electricidad que acumula.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Electrico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/417.png" alt="pokemon Pachirisu">
+                <p class="parrafo-evol">Pachirisu N.° 0417<br>
+                  Electrico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0417":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Pachirisu <b>N.° 0417</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/417.png" alt="pokemon Pachirisu">
+            <p class="parrafo">Forma parte del grupo de Pokémon que posee bolsas de electricidad en las mejillas. Descarga por la cola la electricidad que acumula.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Electrico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/417.png" alt="pokemon Pachirisu">
+                <p class="parrafo-evol">Pachirisu N.° 0417<br>
+                  Electrico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "buizel":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Buizel <b>N.° 0418</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/418.png" alt="pokemon Buizel">
+            <p class="parrafo">Para impulsarse por el agua, gira sus dos colas como una hélice. Así también corta las algas del camino.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/418.png" alt="pokemon Buizel">
+                <p class="parrafo-evol">Buizel N.° 0418<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/419.png" alt="pokemon Floatzel">
+                <p class="parrafo-evol">Floatzel N.° 0419<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0418":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Buizel <b>N.° 0418</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/418.png" alt="pokemon Buizel">
+            <p class="parrafo">Para impulsarse por el agua, gira sus dos colas como una hélice. Así también corta las algas del camino.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/418.png" alt="pokemon Buizel">
+                <p class="parrafo-evol">Buizel N.° 0418<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/419.png" alt="pokemon Floatzel">
+                <p class="parrafo-evol">Floatzel N.° 0419<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "floatzel":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Floatzel <b>N.° 0419</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/419.png" alt="pokemon Floatzel">
+            <p class="parrafo">Con la vejiga natatoria inflada, puede llevar a personas sobre su espalda. Antes de bucear, la desinfla.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/418.png" alt="pokemon Buizel">
+                <p class="parrafo-evol">Buizel N.° 0418<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/419.png" alt="pokemon Floatzel">
+                <p class="parrafo-evol">Floatzel N.° 0419<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0419":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Floatzel <b>N.° 0419</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/419.png" alt="pokemon Floatzel">
+            <p class="parrafo">Con la vejiga natatoria inflada, puede llevar a personas sobre su espalda. Antes de bucear, la desinfla.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/418.png" alt="pokemon Buizel">
+                <p class="parrafo-evol">Buizel N.° 0418<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/419.png" alt="pokemon Floatzel">
+                <p class="parrafo-evol">Floatzel N.° 0419<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "cherubi":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Cherubi <b>N.° 0420</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/420.png" alt="pokemon Cherubi">
+            <p class="parrafo">Se ve obligado a huir constantemente de los Pokémon pájaro, pues su pequeña esfera repleta de nutrientes es su manjar predilecto.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/420.png" alt="pokemon Cherubi">
+                <p class="parrafo-evol">Cherubi N.° 0420<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/421.png" alt="pokemon Cherrim">
+                <p class="parrafo-evol">Cherrim N.° 0421<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0420":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Cherubi <b>N.° 0420</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/420.png" alt="pokemon Cherubi">
+            <p class="parrafo">Se ve obligado a huir constantemente de los Pokémon pájaro, pues su pequeña esfera repleta de nutrientes es su manjar predilecto.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/420.png" alt="pokemon Cherubi">
+                <p class="parrafo-evol">Cherubi N.° 0420<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/421.png" alt="pokemon Cherrim">
+                <p class="parrafo-evol">Cherrim N.° 0421<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "cherrim":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Cherrim <b>N.° 0421</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/421.png" alt="pokemon Cherrim">
+            <p class="parrafo">Permanece casi inmóvil cerrado en un capullo a la espera de que lo bañen los rayos del sol.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/420.png" alt="pokemon Cherubi">
+                <p class="parrafo-evol">Cherubi N.° 0420<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/421.png" alt="pokemon Cherrim">
+                <p class="parrafo-evol">Cherrim N.° 0421<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0421":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Cherrim <b>N.° 0421</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/421.png" alt="pokemon Cherrim">
+            <p class="parrafo">Permanece casi inmóvil cerrado en un capullo a la espera de que lo bañen los rayos del sol.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/420.png" alt="pokemon Cherubi">
+                <p class="parrafo-evol">Cherubi N.° 0420<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/421.png" alt="pokemon Cherrim">
+                <p class="parrafo-evol">Cherrim N.° 0421<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "shellos":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Shellos <b>N.° 0422</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/422.png" alt="pokemon Shellos">
+            <p class="parrafo">Antiguamente cargaba con un caparazón al lomo. Es un Pokémon estrechamente emparentado con los Shellder y otras especies similares.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/422.png" alt="pokemon Shellos">
+                <p class="parrafo-evol">Shellos N.° 0422<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/423.png" alt="pokemon Gastrodon">
+                <p class="parrafo-evol">Gastrodon N.° 0423<br>
+                  Agua, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0422":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Shellos <b>N.° 0422</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/422.png" alt="pokemon Shellos">
+            <p class="parrafo">Antiguamente cargaba con un caparazón al lomo. Es un Pokémon estrechamente emparentado con los Shellder y otras especies similares.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/422.png" alt="pokemon Shellos">
+                <p class="parrafo-evol">Shellos N.° 0422<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/423.png" alt="pokemon Gastrodon">
+                <p class="parrafo-evol">Gastrodon N.° 0423<br>
+                  Agua, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "gastrodon":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Gastrodon <b>N.° 0423</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/423.png" alt="pokemon Gastrodon">
+            <p class="parrafo">Tiene la totalidad del cuerpo recubierta de una sustancia viscosa. Antiguamente, esta había sido con creces su forma más numerosa.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua, Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/422.png" alt="pokemon Shellos">
+                <p class="parrafo-evol">Shellos N.° 0422<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/423.png" alt="pokemon Gastrodon">
+                <p class="parrafo-evol">Gastrodon N.° 0423<br>
+                  Agua, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0423":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Gastrodon <b>N.° 0423</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/423.png" alt="pokemon Gastrodon">
+            <p class="parrafo">Tiene la totalidad del cuerpo recubierta de una sustancia viscosa. Antiguamente, esta había sido con creces su forma más numerosa.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua, Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/422.png" alt="pokemon Shellos">
+                <p class="parrafo-evol">Shellos N.° 0422<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/423.png" alt="pokemon Gastrodon">
+                <p class="parrafo-evol">Gastrodon N.° 0423<br>
+                  Agua, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "drifloon":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Drifloon <b>N.° 0425</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/425.png" alt="pokemon Drifloon">
+            <p class="parrafo">Se dice que a veces desaparecen niños que agarran un Drifloon pensando que es un globo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fantasma, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/425.png" alt="pokemon Drifloon">
+                <p class="parrafo-evol">Drifloon N.° 0425<br>
+                  Fantasma, Volador.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/426.png" alt="pokemon Drifblim">
+                <p class="parrafo-evol">Drifblim N.° 0426<br>
+                  Fantasma, Volador.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0425":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Drifloon <b>N.° 0425</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/425.png" alt="pokemon Drifloon">
+            <p class="parrafo">Se dice que a veces desaparecen niños que agarran un Drifloon pensando que es un globo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fantasma, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/425.png" alt="pokemon Drifloon">
+                <p class="parrafo-evol">Drifloon N.° 0425<br>
+                  Fantasma, Volador.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/426.png" alt="pokemon Drifblim">
+                <p class="parrafo-evol">Drifblim N.° 0426<br>
+                  Fantasma, Volador.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "drifblim":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Drifblim <b>N.° 0426</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/426.png" alt="pokemon Drifblim">
+            <p class="parrafo">Crea en su interior gases y los expulsa. De esta forma es capaz de volar y controlar su altura.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fantasma, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/425.png" alt="pokemon Drifloon">
+                <p class="parrafo-evol">Drifloon N.° 0425<br>
+                  Fantasma, Volador.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/426.png" alt="pokemon Drifblim">
+                <p class="parrafo-evol">Drifblim N.° 0426<br>
+                  Fantasma, Volador.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0426":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Drifblim <b>N.° 0426</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/426.png" alt="pokemon Drifblim">
+            <p class="parrafo">Crea en su interior gases y los expulsa. De esta forma es capaz de volar y controlar su altura.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fantasma, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/425.png" alt="pokemon Drifloon">
+                <p class="parrafo-evol">Drifloon N.° 0425<br>
+                  Fantasma, Volador.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/426.png" alt="pokemon Drifblim">
+                <p class="parrafo-evol">Drifblim N.° 0426<br>
+                  Fantasma, Volador.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "buneary":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Buneary <b>N.° 0427</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/427.png" alt="pokemon Buneary">
+            <p class="parrafo">Cuando enrolla ambas orejas, es señal de que tiene algún tipo de malestar físico o emocional y necesita cuidados. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/427.png" alt="pokemon Burneary">
+                <p class="parrafo-evol">Burneary N.° 0427<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/428.png" alt="pokemon Lopunny">
+                <p class="parrafo-evol">Lopunny N.° 0428<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0427":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Buneary <b>N.° 0427</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/427.png" alt="pokemon Buneary">
+            <p class="parrafo">Cuando enrolla ambas orejas, es señal de que tiene algún tipo de malestar físico o emocional y necesita cuidados. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/427.png" alt="pokemon Burneary">
+                <p class="parrafo-evol">Burneary N.° 0427<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/428.png" alt="pokemon Lopunny">
+                <p class="parrafo-evol">Lopunny N.° 0428<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "lopunny":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Lopunny <b>N.° 0428</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/428.png" alt="pokemon Lopunny">
+            <p class="parrafo">Está siempre atento a lo que ocurre a su alrededor. Si advierte peligro, se defenderá con patadas de potencia devastadora.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/427.png" alt="pokemon Burneary">
+                <p class="parrafo-evol">Burneary N.° 0427<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/428.png" alt="pokemon Lopunny">
+                <p class="parrafo-evol">Lopunny N.° 0428<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0428":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Lopunny <b>N.° 0428</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/428.png" alt="pokemon Lopunny">
+            <p class="parrafo">Está siempre atento a lo que ocurre a su alrededor. Si advierte peligro, se defenderá con patadas de potencia devastadora.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/427.png" alt="pokemon Burneary">
+                <p class="parrafo-evol">Burneary N.° 0427<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/428.png" alt="pokemon Lopunny">
+                <p class="parrafo-evol">Lopunny N.° 0428<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "glameow":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Glameow <b>N.° 0431</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/431.png" alt="pokemon Glameow">
+            <p class="parrafo">Araña cuando está enfadado y ronronea cuando está cariñoso. Su imprevisibilidad es famosa.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/431.png" alt="pokemon Glameow">
+                <p class="parrafo-evol">Glameow N.° 0431<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/432.png" alt="pokemon Purugly">
+                <p class="parrafo-evol">Purugly N.° 0432<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0431":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Glameow <b>N.° 0431</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/431.png" alt="pokemon Glameow">
+            <p class="parrafo">Araña cuando está enfadado y ronronea cuando está cariñoso. Su imprevisibilidad es famosa.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/431.png" alt="pokemon Glameow">
+                <p class="parrafo-evol">Glameow N.° 0431<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/432.png" alt="pokemon Purugly">
+                <p class="parrafo-evol">Purugly N.° 0432<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "purugly":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Purugly <b>N.° 0432</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/432.png" alt="pokemon Purugly">
+            <p class="parrafo">Si se siente a gusto, no tiene ningún reparo en apropiarse de las moradas de otros Pokémon.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/431.png" alt="pokemon Glameow">
+                <p class="parrafo-evol">Glameow N.° 0431<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/432.png" alt="pokemon Purugly">
+                <p class="parrafo-evol">Purugly N.° 0432<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0432":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Purugly <b>N.° 0432</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/432.png" alt="pokemon Purugly">
+            <p class="parrafo">Si se siente a gusto, no tiene ningún reparo en apropiarse de las moradas de otros Pokémon.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/431.png" alt="pokemon Glameow">
+                <p class="parrafo-evol">Glameow N.° 0431<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/432.png" alt="pokemon Purugly">
+                <p class="parrafo-evol">Purugly N.° 0432<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "stunky":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Stunky <b>N.° 0434</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/434.png" alt="pokemon Stunky">
+            <p class="parrafo">Expulsa un fluido maloliente por sus cuartos traseros. El hedor repele Pokémon en un radio de 2 km.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/434.png" alt="pokemon Stunky">
+                <p class="parrafo-evol">Stunky N.° 0434<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/435.png" alt="pokemon Skuntank">
+                <p class="parrafo-evol">Skuntank N.° 0435<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0434":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Stunky <b>N.° 0434</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/434.png" alt="pokemon Stunky">
+            <p class="parrafo">Expulsa un fluido maloliente por sus cuartos traseros. El hedor repele Pokémon en un radio de 2 km.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/434.png" alt="pokemon Stunky">
+                <p class="parrafo-evol">Stunky N.° 0434<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/435.png" alt="pokemon Skuntank">
+                <p class="parrafo-evol">Skuntank N.° 0435<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "skuntank":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Skuntank <b>N.° 0435</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/435.png" alt="pokemon Skuntank">
+            <p class="parrafo">Ataca emitiendo un fluido maloliente por la punta de la cola. Los ataques aéreos lo confunden.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/434.png" alt="pokemon Stunky">
+                <p class="parrafo-evol">Stunky N.° 0434<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/435.png" alt="pokemon Skuntank">
+                <p class="parrafo-evol">Skuntank N.° 0435<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0435":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Skuntank <b>N.° 0435</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/435.png" alt="pokemon Skuntank">
+            <p class="parrafo">Ataca emitiendo un fluido maloliente por la punta de la cola. Los ataques aéreos lo confunden.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/434.png" alt="pokemon Stunky">
+                <p class="parrafo-evol">Stunky N.° 0434<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/435.png" alt="pokemon Skuntank">
+                <p class="parrafo-evol">Skuntank N.° 0435<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "bronzor":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Bronzor <b>N.° 0436</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/436.png" alt="pokemon Bronzor">
+            <p class="parrafo">Antaño se creía que en el dibujo de su parte posterior residía una fuerza misteriosa.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Acero, Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Fuego, Siniestro, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/436.png" alt="pokemon Bronzor">
+                <p class="parrafo-evol">Bronzor N.° 0436<br>
+                  Acero, Psiquico.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/437.png" alt="pokemon Bronzong">
+                <p class="parrafo-evol">Bronzong N.° 0437<br>
+                  Acero, Psiquico.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0436":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Bronzor <b>N.° 0436</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/436.png" alt="pokemon Bronzor">
+            <p class="parrafo">Antaño se creía que en el dibujo de su parte posterior residía una fuerza misteriosa.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Acero, Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Fuego, Siniestro, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/436.png" alt="pokemon Bronzor">
+                <p class="parrafo-evol">Bronzor N.° 0436<br>
+                  Acero, Psiquico.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/437.png" alt="pokemon Bronzong">
+                <p class="parrafo-evol">Bronzong N.° 0437<br>
+                  Acero, Psiquico.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "bronzong":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Bronzong <b>N.° 0437</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/437.png" alt="pokemon Bronzong">
+            <p class="parrafo">Antaño se adoraba a este Pokémon para que propiciara lluvias abundantes. A veces, puede encontrarse enterrado bajo tierra.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Acero, Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Fuego, Siniestro, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/436.png" alt="pokemon Bronzor">
+                <p class="parrafo-evol">Bronzor N.° 0436<br>
+                  Acero, Psiquico.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/437.png" alt="pokemon Bronzong">
+                <p class="parrafo-evol">Bronzong N.° 0437<br>
+                  Acero, Psiquico.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0437":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Bronzong <b>N.° 0437</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/437.png" alt="pokemon Bronzong">
+            <p class="parrafo">Antaño se adoraba a este Pokémon para que propiciara lluvias abundantes. A veces, puede encontrarse enterrado bajo tierra.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Acero, Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Fuego, Siniestro, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/436.png" alt="pokemon Bronzor">
+                <p class="parrafo-evol">Bronzor N.° 0436<br>
+                  Acero, Psiquico.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/437.png" alt="pokemon Bronzong">
+                <p class="parrafo-evol">Bronzong N.° 0437<br>
+                  Acero, Psiquico.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "mime jr.":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Mime Jr. <b>N.° 0439</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/439.png" alt="pokemon Mime Jr.">
+            <p class="parrafo">Imita todo lo que ve, especialmente los gráciles pasos de baile de Mr. Rime, que practica con gran tesón.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico, Hada.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Acero, Veneno.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/439.png" alt="pokemon Mime Jr.">
+                <p class="parrafo-evol">Mime Jr. N.° 0439<br>
+                  Psiquico, Hada.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/122.png" alt="pokemon Mr. Mime">
+                <p class="parrafo-evol">Mr. Mime N.° 0122<br>
+                  Psiquico, Hada.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0439":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Mime Jr. <b>N.° 0439</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/439.png" alt="pokemon Mime Jr.">
+            <p class="parrafo">Imita todo lo que ve, especialmente los gráciles pasos de baile de Mr. Rime, que practica con gran tesón.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico, Hada.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Acero, Veneno.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/439.png" alt="pokemon Mime Jr.">
+                <p class="parrafo-evol">Mime Jr. N.° 0439<br>
+                  Psiquico, Hada.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/122.png" alt="pokemon Mr. Mime">
+                <p class="parrafo-evol">Mr. Mime N.° 0122<br>
+                  Psiquico, Hada.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "chatot":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Chatot <b>N.° 0441</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/441.png" alt="pokemon Chatot">
+            <p class="parrafo">Imita los sonidos de sus rivales, haciéndoles creer que son amigos e impidiendo que le ataquen.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Electrico, Hielo, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/441.png" alt="pokemon Chatot">
+                <p class="parrafo-evol">Chatot N.° 0441<br>
+                  Normal, Volador. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0441":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Chatot <b>N.° 0441</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/441.png" alt="pokemon Chatot">
+            <p class="parrafo">Imita los sonidos de sus rivales, haciéndoles creer que son amigos e impidiendo que le ataquen.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal, Volador.<br>
+            <b style="color:#0000ff">Debilidad:</b> Electrico, Hielo, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/441.png" alt="pokemon Chatot">
+                <p class="parrafo-evol">Chatot N.° 0441<br>
+                  Normal, Volador. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "spiritomb":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Spiritomb <b>N.° 0442</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/442.png" alt="pokemon Spiritomb">
+            <p class="parrafo">Por sus constantes fechorías se le acabó uniendo a una Piedra Espíritu con un misterioso hechizo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fantasma, Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/442.png" alt="pokemon Spiritomb">
+                <p class="parrafo-evol">Spiritomb N.° 0442<br>
+                  Fantasma, Siniestro. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0442":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Spiritomb <b>N.° 0442</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/442.png" alt="pokemon Spiritomb">
+            <p class="parrafo">Por sus constantes fechorías se le acabó uniendo a una Piedra Espíritu con un misterioso hechizo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fantasma, Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/442.png" alt="pokemon Spiritomb">
+                <p class="parrafo-evol">Spiritomb N.° 0442<br>
+                  Fantasma, Siniestro. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "gible":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Gible <b>N.° 0443</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/443.png" alt="pokemon Gible">
+            <p class="parrafo">Permanece oculto en cuevas y, cuando pasa una presa, se abalanza sobre ella y la muerde con tanta fuerza que hasta se le rompen los dientes.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Dragon, Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Hielo, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/443.png" alt="pokemon Gible">
+                <p class="parrafo-evol">Gible N.° 0443<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/444.png" alt="pokemon Gabite">
+                <p class="parrafo-evol">Gabite N.° 0444<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png" alt="pokemon Garchomp">
+                <p class="parrafo-evol">Garchomp N.° 0445<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0443":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Gible <b>N.° 0443</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/443.png" alt="pokemon Gible">
+            <p class="parrafo">Permanece oculto en cuevas y, cuando pasa una presa, se abalanza sobre ella y la muerde con tanta fuerza que hasta se le rompen los dientes.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Dragon, Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Hielo, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/443.png" alt="pokemon Gible">
+                <p class="parrafo-evol">Gible N.° 0443<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/444.png" alt="pokemon Gabite">
+                <p class="parrafo-evol">Gabite N.° 0444<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png" alt="pokemon Garchomp">
+                <p class="parrafo-evol">Garchomp N.° 0445<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "gabite":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Gabite <b>N.° 0444</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/444.png" alt="pokemon Gabite">
+            <p class="parrafo">Muy ocasionalmente puede mudar la piel y perder las escamas. Las medicinas que las usan como ingrediente son muy reconstituyentes.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Dragon, Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Hielo, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/443.png" alt="pokemon Gible">
+                <p class="parrafo-evol">Gible N.° 0443<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/444.png" alt="pokemon Gabite">
+                <p class="parrafo-evol">Gabite N.° 0444<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png" alt="pokemon Garchomp">
+                <p class="parrafo-evol">Garchomp N.° 0445<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0444":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Gabite <b>N.° 0444</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/444.png" alt="pokemon Gabite">
+            <p class="parrafo">Muy ocasionalmente puede mudar la piel y perder las escamas. Las medicinas que las usan como ingrediente son muy reconstituyentes.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Dragon, Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Hielo, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/443.png" alt="pokemon Gible">
+                <p class="parrafo-evol">Gible N.° 0443<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/444.png" alt="pokemon Gabite">
+                <p class="parrafo-evol">Gabite N.° 0444<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png" alt="pokemon Garchomp">
+                <p class="parrafo-evol">Garchomp N.° 0445<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "garchomp":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Garchomp <b>N.° 0445</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/445.png" alt="pokemon Garchomp">
+            <p class="parrafo">Se dice que, cuando va a velocidad máxima, sus alas crean cuchillas de viento que talan cualquier árbol.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Dragon, Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Hielo, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/443.png" alt="pokemon Gible">
+                <p class="parrafo-evol">Gible N.° 0443<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/444.png" alt="pokemon Gabite">
+                <p class="parrafo-evol">Gabite N.° 0444<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png" alt="pokemon Garchomp">
+                <p class="parrafo-evol">Garchomp N.° 0445<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0445":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Garchomp <b>N.° 0445</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/445.png" alt="pokemon Garchomp">
+            <p class="parrafo">Se dice que, cuando va a velocidad máxima, sus alas crean cuchillas de viento que talan cualquier árbol.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Dragon, Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Hielo, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/443.png" alt="pokemon Gible">
+                <p class="parrafo-evol">Gible N.° 0443<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/444.png" alt="pokemon Gabite">
+                <p class="parrafo-evol">Gabite N.° 0444<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/445.png" alt="pokemon Garchomp">
+                <p class="parrafo-evol">Garchomp N.° 0445<br>
+                  Dragon, Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "riolu":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Riolu <b>N.° 0447</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/447.png" alt="pokemon Riolu">
+            <p class="parrafo">Se comunica con los suyos emitiendo ondas. Puede pasarse toda una noche corriendo. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Psiquico, Volador, Hada.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/447.png" alt="pokemon Riolu">
+                <p class="parrafo-evol">Riolu N.° 0447<br>
+                  Lucha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/448.png" alt="pokemon Lucario">
+                <p class="parrafo-evol">Lucario N.° 0448<br>
+                  Lucha, Acero.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0447":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Riolu <b>N.° 0447</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/447.png" alt="pokemon Riolu">
+            <p class="parrafo">Se comunica con los suyos emitiendo ondas. Puede pasarse toda una noche corriendo. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Psiquico, Volador, Hada.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/447.png" alt="pokemon Riolu">
+                <p class="parrafo-evol">Riolu N.° 0447<br>
+                  Lucha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/448.png" alt="pokemon Lucario">
+                <p class="parrafo-evol">Lucario N.° 0448<br>
+                  Lucha, Acero.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "lucario":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Lucario <b>N.° 0448</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png" alt="pokemon Lucario">
+            <p class="parrafo">Dicen que, como es capaz de detectar auras, puede percibir a sus rivales aunque no los vea. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Lucha, Acero.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Lucha, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/447.png" alt="pokemon Riolu">
+                <p class="parrafo-evol">Riolu N.° 0447<br>
+                  Lucha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/448.png" alt="pokemon Lucario">
+                <p class="parrafo-evol">Lucario N.° 0448<br>
+                  Lucha, Acero.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0448":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Lucario <b>N.° 0448</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/448.png" alt="pokemon Lucario">
+            <p class="parrafo">Dicen que, como es capaz de detectar auras, puede percibir a sus rivales aunque no los vea. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Lucha, Acero.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Lucha, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/447.png" alt="pokemon Riolu">
+                <p class="parrafo-evol">Riolu N.° 0447<br>
+                  Lucha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/448.png" alt="pokemon Lucario">
+                <p class="parrafo-evol">Lucario N.° 0448<br>
+                  Lucha, Acero.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "hippopotas":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Hippopotas <b>N.° 0449</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/449.png" alt="pokemon Hippopotas">
+            <p class="parrafo">Cierra los orificios nasales y luego se desplaza por la arena con total tranquilidad. Suele formar colonias de diez individuos. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Planta, Hielo.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/449.png" alt="pokemon Hippopotas">
+                <p class="parrafo-evol">Hippopotas N.° 0449<br>
+                  Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/450.png" alt="pokemon Hippowdon">
+                <p class="parrafo-evol">Hippowdon N.° 0450<br>
+                  Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0449":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Hippopotas <b>N.° 0449</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/449.png" alt="pokemon Hippopotas">
+            <p class="parrafo">Cierra los orificios nasales y luego se desplaza por la arena con total tranquilidad. Suele formar colonias de diez individuos. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Planta, Hielo.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/449.png" alt="pokemon Hippopotas">
+                <p class="parrafo-evol">Hippopotas N.° 0449<br>
+                  Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/450.png" alt="pokemon Hippowdon">
+                <p class="parrafo-evol">Hippowdon N.° 0450<br>
+                  Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "hippowdon":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Hippowdon <b>N.° 0450</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/450.png" alt="pokemon Hippowdon">
+            <p class="parrafo">Mantiene la boca abierta para mostrar su fuerza. Se enfada con sorprendente rapidez.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Planta, Hielo.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/449.png" alt="pokemon Hippopotas">
+                <p class="parrafo-evol">Hippopotas N.° 0449<br>
+                  Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/450.png" alt="pokemon Hippowdon">
+                <p class="parrafo-evol">Hippowdon N.° 0450<br>
+                  Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0450":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Hippowdon <b>N.° 0450</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/450.png" alt="pokemon Hippowdon">
+            <p class="parrafo">Mantiene la boca abierta para mostrar su fuerza. Se enfada con sorprendente rapidez.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Tierra.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Planta, Hielo.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/449.png" alt="pokemon Hippopotas">
+                <p class="parrafo-evol">Hippopotas N.° 0449<br>
+                  Tierra.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/450.png" alt="pokemon Hippowdon">
+                <p class="parrafo-evol">Hippowdon N.° 0450<br>
+                  Tierra.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "skorupi":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Skorupi <b>N.° 0451</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/451.png" alt="pokemon Skorupi">
+            <p class="parrafo">Se entierra en la arena y aguarda inmóvil a sus presas. Sus antepasados están relacionados con los de Sizzlipede.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Bicho.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Psiquico, Volador, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/451.png" alt="pokemon Skorupi">
+                <p class="parrafo-evol">Skorupi N.° 0451<br>
+                  Veneno, Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/452.png" alt="pokemon Drapion">
+                <p class="parrafo-evol">Drapion N.° 0452<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0451":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Skorupi <b>N.° 0451</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/451.png" alt="pokemon Skorupi">
+            <p class="parrafo">Se entierra en la arena y aguarda inmóvil a sus presas. Sus antepasados están relacionados con los de Sizzlipede.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Bicho.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Psiquico, Volador, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/451.png" alt="pokemon Skorupi">
+                <p class="parrafo-evol">Skorupi N.° 0451<br>
+                  Veneno, Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/452.png" alt="pokemon Drapion">
+                <p class="parrafo-evol">Drapion N.° 0452<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "drapion":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Drapion <b>N.° 0452</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/452.png" alt="pokemon Drapion">
+            <p class="parrafo">Posee un veneno muy potente, pero que usa muy poco. Con la extraordinaria fuerza que concentra al enfurecerse podría hacer añicos un coche.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/451.png" alt="pokemon Skorupi">
+                <p class="parrafo-evol">Skorupi N.° 0451<br>
+                  Veneno, Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/452.png" alt="pokemon Drapion">
+                <p class="parrafo-evol">Drapion N.° 0452<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0452":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Drapion <b>N.° 0452</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/452.png" alt="pokemon Drapion">
+            <p class="parrafo">Posee un veneno muy potente, pero que usa muy poco. Con la extraordinaria fuerza que concentra al enfurecerse podría hacer añicos un coche.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/451.png" alt="pokemon Skorupi">
+                <p class="parrafo-evol">Skorupi N.° 0451<br>
+                  Veneno, Bicho.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/452.png" alt="pokemon Drapion">
+                <p class="parrafo-evol">Drapion N.° 0452<br>
+                  Veneno, Siniestro.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "croagunk":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Croagunk <b>N.° 0453</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/453.png" alt="pokemon Croagunk">
+            <p class="parrafo">Infla sus bolsas venenosas para emitir un sonido macabro a su alrededor y envenena al rival en cuanto se amedrenta.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Psiquico, Volador, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/453.png" alt="pokemon Croagunk">
+                <p class="parrafo-evol">Croagunk N.° 0453<br>
+                  Veneno, Lucha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/454.png" alt="pokemon Toxicroak">
+                <p class="parrafo-evol">Toxicroak N.° 0454<br>
+                  Veneno, Lucha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0453":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Croagunk <b>N.° 0453</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/453.png" alt="pokemon Croagunk">
+            <p class="parrafo">Infla sus bolsas venenosas para emitir un sonido macabro a su alrededor y envenena al rival en cuanto se amedrenta.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Psiquico, Volador, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/453.png" alt="pokemon Croagunk">
+                <p class="parrafo-evol">Croagunk N.° 0453<br>
+                  Veneno, Lucha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/454.png" alt="pokemon Toxicroak">
+                <p class="parrafo-evol">Toxicroak N.° 0454<br>
+                  Veneno, Lucha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "toxicroak":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Toxicroak <b>N.° 0454</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/454.png" alt="pokemon Toxicroak">
+            <p class="parrafo">Esquiva ágilmente los ataques de sus enemigos mientras va acortando distancias para contraatacar con sus garras venenosas. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Psiquico, Volador, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/453.png" alt="pokemon Croagunk">
+                <p class="parrafo-evol">Croagunk N.° 0453<br>
+                  Veneno, Lucha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/454.png" alt="pokemon Toxicroak">
+                <p class="parrafo-evol">Toxicroak N.° 0454<br>
+                  Veneno, Lucha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0454":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Toxicroak <b>N.° 0454</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/454.png" alt="pokemon Toxicroak">
+            <p class="parrafo">Esquiva ágilmente los ataques de sus enemigos mientras va acortando distancias para contraatacar con sus garras venenosas. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Veneno, Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Psiquico, Volador, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/453.png" alt="pokemon Croagunk">
+                <p class="parrafo-evol">Croagunk N.° 0453<br>
+                  Veneno, Lucha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/454.png" alt="pokemon Toxicroak">
+                <p class="parrafo-evol">Toxicroak N.° 0454<br>
+                  Veneno, Lucha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "carnivine":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Carnivine <b>N.° 0455</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/455.png" alt="pokemon Carnivine">
+            <p class="parrafo">Atrae a sus presas con saliva de olor dulce y las mastica. Tarda todo un día en comérselas. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/455.png" alt="pokemon Carnivine">
+                <p class="parrafo-evol">Carnivine N.° 0455<br>
+                  Planta. <br><br>
+                  Este, Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0455":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Carnivine <b>N.° 0455</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/455.png" alt="pokemon Carnivine">
+            <p class="parrafo">Atrae a sus presas con saliva de olor dulce y las mastica. Tarda todo un día en comérselas. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/455.png" alt="pokemon Carnivine">
+                <p class="parrafo-evol">Carnivine N.° 0455<br>
+                  Planta. <br><br>
+                  Este, Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "finneon":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Finneon <b>N.° 0456</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/456.png" alt="pokemon Finneon">
+            <p class="parrafo">Atrae a sus presas con saliva de olor dulce y las mastica. Tarda todo un día en comérselas. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/456.png" alt="pokemon Finneon">
+                <p class="parrafo-evol">Finneon N.° 0456<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/457.png" alt="pokemon Lumineon">
+                <p class="parrafo-evol">Lumineon N.° 0457<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0456":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Finneon <b>N.° 0456</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/456.png" alt="pokemon Finneon">
+            <p class="parrafo">Atrae a sus presas con saliva de olor dulce y las mastica. Tarda todo un día en comérselas. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/456.png" alt="pokemon Finneon">
+                <p class="parrafo-evol">Finneon N.° 0456<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/457.png" alt="pokemon Lumineon">
+                <p class="parrafo-evol">Lumineon N.° 0457<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "lumineon":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Lumineon <b>N.° 0457</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/457.png" alt="pokemon Lumineon">
+            <p class="parrafo">Atrae a sus presas con el destello que emite, aunque eso también llama la atención de sus feroces depredadores marinos.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/456.png" alt="pokemon Finneon">
+                <p class="parrafo-evol">Finneon N.° 0456<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/457.png" alt="pokemon Lumineon">
+                <p class="parrafo-evol">Lumineon N.° 0457<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0457":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Lumineon <b>N.° 0457</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/457.png" alt="pokemon Lumineon">
+            <p class="parrafo">Atrae a sus presas con el destello que emite, aunque eso también llama la atención de sus feroces depredadores marinos.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/456.png" alt="pokemon Finneon">
+                <p class="parrafo-evol">Finneon N.° 0456<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/457.png" alt="pokemon Lumineon">
+                <p class="parrafo-evol">Lumineon N.° 0457<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "snover":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Snover <b>N.° 0459</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/459.png" alt="pokemon Snover">
+            <p class="parrafo">En las estaciones frías baja al pie de la montaña, pero regresa a las cimas nevadas en primavera.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta, Hielo.<br>
+            <b style="color:#0000ff">Debilidad:</b> Acero, Fuego, Volador, Veneno, Lucha, Roca, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/459.png" alt="pokemon Snover">
+                <p class="parrafo-evol">Snover N.° 0459<br>
+                  Planta, Hielo.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/460.png" alt="pokemon Abomasnow">
+                <p class="parrafo-evol">Abomasnow N.° 0460<br>
+                  Planta, Hielo.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0459":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Snover <b>N.° 0459</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/459.png" alt="pokemon Snover">
+            <p class="parrafo">En las estaciones frías baja al pie de la montaña, pero regresa a las cimas nevadas en primavera.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta, Hielo.<br>
+            <b style="color:#0000ff">Debilidad:</b> Acero, Fuego, Volador, Veneno, Lucha, Roca, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/459.png" alt="pokemon Snover">
+                <p class="parrafo-evol">Snover N.° 0459<br>
+                  Planta, Hielo.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/460.png" alt="pokemon Abomasnow">
+                <p class="parrafo-evol">Abomasnow N.° 0460<br>
+                  Planta, Hielo.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "abomasnow":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Abomasnow <b>N.° 0460</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/460.png" alt="pokemon Abomasnow">
+            <p class="parrafo">Vive en paz en cordilleras de nieves eternas. Genera ventiscas para ocultarse. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta, Hielo.<br>
+            <b style="color:#0000ff">Debilidad:</b> Acero, Fuego, Volador, Veneno, Lucha, Roca, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/459.png" alt="pokemon Snover">
+                <p class="parrafo-evol">Snover N.° 0459<br>
+                  Planta, Hielo.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/460.png" alt="pokemon Abomasnow">
+                <p class="parrafo-evol">Abomasnow N.° 0460<br>
+                  Planta, Hielo.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0460":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Abomasnow <b>N.° 0460</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/460.png" alt="pokemon Abomasnow">
+            <p class="parrafo">Vive en paz en cordilleras de nieves eternas. Genera ventiscas para ocultarse. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta, Hielo.<br>
+            <b style="color:#0000ff">Debilidad:</b> Acero, Fuego, Volador, Veneno, Lucha, Roca, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/459.png" alt="pokemon Snover">
+                <p class="parrafo-evol">Snover N.° 0459<br>
+                  Planta, Hielo.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/460.png" alt="pokemon Abomasnow">
+                <p class="parrafo-evol">Abomasnow N.° 0460<br>
+                  Planta, Hielo.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "lickilicky":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Lickilicky <b>N.° 0463</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/463.png" alt="pokemon Lickilicky">
+            <p class="parrafo">Su lengua es un misterio sin resolver: no se sabe cómo puede extenderla hasta alcanzar longitudes que superan varias veces la de su propio cuerpo. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/108.png" alt="pokemon Lickitung">
+                <p class="parrafo-evol">Lickitung N.° 0108<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/463.png" alt="pokemon Lickilicky">
+                <p class="parrafo-evol">Lickilicky N.° 0463<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0463":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Lickilicky <b>N.° 0463</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/463.png" alt="pokemon Lickilicky">
+            <p class="parrafo">Su lengua es un misterio sin resolver: no se sabe cómo puede extenderla hasta alcanzar longitudes que superan varias veces la de su propio cuerpo. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/108.png" alt="pokemon Lickitung">
+                <p class="parrafo-evol">Lickitung N.° 0108<br>
+                  Normal.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/463.png" alt="pokemon Lickilicky">
+                <p class="parrafo-evol">Lickilicky N.° 0463<br>
+                  Normal.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "rhyperior":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Rhyperior <b>N.° 0464</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/464.png" alt="pokemon Rhyperior">
+            <p class="parrafo">Introduce rocas o Roggenrola en las cavidades de las manos y los dispara con fuerza. Es capaz de cargar hasta tres proyectiles en cada brazo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Tierra, Roca.<br>
+            <b style="color:#0000ff">Debilidad:</b> Acero, Hielo, Agua, Lucha, Planta, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/111.png" alt="pokemon Rhyhorn">
+                <p class="parrafo-evol">Rhyhorn N.° 0111<br>
+                  Tierra, Roca.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/112.png" alt="pokemon Rhydon">
+                <p class="parrafo-evol">Rhydon N.° 0112<br>
+                  Tierra, Roca.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/464.png" alt="pokemon Rhyperior">
+                <p class="parrafo-evol">Rhyperior N.° 0464<br>
+                  Tierra, Roca.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0464":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Rhyperior <b>N.° 0464</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/464.png" alt="pokemon Rhyperior">
+            <p class="parrafo">Introduce rocas o Roggenrola en las cavidades de las manos y los dispara con fuerza. Es capaz de cargar hasta tres proyectiles en cada brazo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Tierra, Roca.<br>
+            <b style="color:#0000ff">Debilidad:</b> Acero, Hielo, Agua, Lucha, Planta, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/111.png" alt="pokemon Rhyhorn">
+                <p class="parrafo-evol">Rhyhorn N.° 0111<br>
+                  Tierra, Roca.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/112.png" alt="pokemon Rhydon">
+                <p class="parrafo-evol">Rhydon N.° 0112<br>
+                  Tierra, Roca.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/464.png" alt="pokemon Rhyperior">
+                <p class="parrafo-evol">Rhyperior N.° 0464<br>
+                  Tierra, Roca.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "tangrowth":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Tangrowth <b>N.° 0465</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/465.png" alt="pokemon Tangrowth">
+            <p class="parrafo">Se ha descubierto recientemente que los dos brazos que estira a voluntad son en realidad lianas enredadas entre sí.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/114.png" alt="pokemon Tangela">
+                <p class="parrafo-evol">Tangela N.° 0114<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/465.png" alt="pokemon Tangrowth">
+                <p class="parrafo-evol">Tangrowth N.° 0465<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0465":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Tangrowth <b>N.° 0465</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/465.png" alt="pokemon Tangrowth">
+            <p class="parrafo">Se ha descubierto recientemente que los dos brazos que estira a voluntad son en realidad lianas enredadas entre sí.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/114.png" alt="pokemon Tangela">
+                <p class="parrafo-evol">Tangela N.° 0114<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/465.png" alt="pokemon Tangrowth">
+                <p class="parrafo-evol">Tangrowth N.° 0465<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "electivire":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Electivire <b>N.° 0466</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/466.png" alt="pokemon Electivire">
+            <p class="parrafo">La cantidad de electricidad que genera es proporcional a su pulso. Al enzarzarse en combate, su voltaje aumenta drásticamente.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Electrico<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/239.png" alt="pokemon Elekid">
+                <p class="parrafo-evol">Elekid N.° 0239<br>
+                  Electrico.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/125.png" alt="pokemon Electabuzz">
+                <p class="parrafo-evol">Electabuzz N.° 0125<br>
+                  Electrico.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/466.png" alt="pokemon Electivire">
+                <p class="parrafo-evol">Electivire N.° 0466<br>
+                  Electrico.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0466":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Electivire <b>N.° 0466</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/466.png" alt="pokemon Electivire">
+            <p class="parrafo">La cantidad de electricidad que genera es proporcional a su pulso. Al enzarzarse en combate, su voltaje aumenta drásticamente.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Electrico<br>
+            <b style="color:#0000ff">Debilidad:</b> Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/239.png" alt="pokemon Elekid">
+                <p class="parrafo-evol">Elekid N.° 0239<br>
+                  Electrico.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/125.png" alt="pokemon Electabuzz">
+                <p class="parrafo-evol">Electabuzz N.° 0125<br>
+                  Electrico.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/466.png" alt="pokemon Electivire">
+                <p class="parrafo-evol">Electivire N.° 0466<br>
+                  Electrico.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "magmortar":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Magmortar <b>N.° 0467</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/467.png" alt="pokemon Magmortar">
+            <p class="parrafo">Al respirar profundamente, el fuego del interior de su vientre gana intensidad y puede alcanzar los 2000 ºC.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Tierra, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/240.png" alt="pokemon Magby">
+                <p class="parrafo-evol">Magby N.° 0240<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/126.png" alt="pokemon Magmar">
+                <p class="parrafo-evol">Magmar N.° 0126<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/467.png" alt="pokemon Magmortar">
+                <p class="parrafo-evol">Magmortar N.° 0467<br>
+                  Fuego.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0467":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Magmortar <b>N.° 0467</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/467.png" alt="pokemon Magmortar">
+            <p class="parrafo">Al respirar profundamente, el fuego del interior de su vientre gana intensidad y puede alcanzar los 2000 ºC.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Tierra, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/240.png" alt="pokemon Magby">
+                <p class="parrafo-evol">Magby N.° 0240<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/126.png" alt="pokemon Magmar">
+                <p class="parrafo-evol">Magmar N.° 0126<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/467.png" alt="pokemon Magmortar">
+                <p class="parrafo-evol">Magmortar N.° 0467<br>
+                  Fuego.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "rotom":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Rotom <b>N.° 0479</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/479.png" alt="pokemon Rotom">
+            <p class="parrafo">Con su cuerpo eléctrico puede infiltrarse en algunos aparatos para controlarlos y hacer travesuras. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Electrico, Fantasma.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png" alt="pokemon Rotom">
+                <p class="parrafo-evol">Rotom N.° 0479<br>
+                  Electrico, Fantasma. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0479":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Rotom <b>N.° 0479</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/479.png" alt="pokemon Rotom">
+            <p class="parrafo">Con su cuerpo eléctrico puede infiltrarse en algunos aparatos para controlarlos y hacer travesuras. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Electrico, Fantasma.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/479.png" alt="pokemon Rotom">
+                <p class="parrafo-evol">Rotom N.° 0479<br>
+                  Electrico, Fantasma. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "uxie":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Uxie <b>N.° 0480</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/480.png" alt="pokemon Uxie">
+            <p class="parrafo">Se le conoce como el Ser de la Sabiduría. Se dice que puede borrar la memoria con una mirada.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/480.png" alt="pokemon Uxie">
+                <p class="parrafo-evol">Uxie N.° 0480<br>
+                  Psiquico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0480":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Uxie <b>N.° 0480</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/480.png" alt="pokemon Uxie">
+            <p class="parrafo">Se le conoce como el Ser de la Sabiduría. Se dice que puede borrar la memoria con una mirada.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/480.png" alt="pokemon Uxie">
+                <p class="parrafo-evol">Uxie N.° 0480<br>
+                  Psiquico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "mesprit":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Mesprit <b>N.° 0481</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/481.png" alt="pokemon Mesprit">
+            <p class="parrafo">Se le conoce como el Ser de la Emoción. Enseñó a los humanos la nobleza del dolor y la alegría.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/481.png" alt="pokemon Mesprit">
+                <p class="parrafo-evol">Mesprit N.° 0481<br>
+                  Psiquico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0481":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Mesprit <b>N.° 0481</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/481.png" alt="pokemon Mesprit">
+            <p class="parrafo">Se le conoce como el Ser de la Emoción. Enseñó a los humanos la nobleza del dolor y la alegría.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/481.png" alt="pokemon Mesprit">
+                <p class="parrafo-evol">Mesprit N.° 0481<br>
+                  Psiquico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "azelf":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Azelf <b>N.° 0482</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/482.png" alt="pokemon Azelf">
+            <p class="parrafo">Se le conoce como el Ser de la Voluntad. Duerme en el fondo de un lago para equilibrar el mundo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/482.png" alt="pokemon Azelf">
+                <p class="parrafo-evol">Azelf N.° 0482<br>
+                  Psiquico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0482":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Azelf <b>N.° 0482</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/482.png" alt="pokemon Azelf">
+            <p class="parrafo">Se le conoce como el Ser de la Voluntad. Duerme en el fondo de un lago para equilibrar el mundo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/482.png" alt="pokemon Azelf">
+                <p class="parrafo-evol">Azelf N.° 0482<br>
+                  Psiquico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "dialga":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Dialga <b>N.° 0483</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/483.png" alt="pokemon Dialga">
+            <p class="parrafo">Un Pokémon de leyenda. Se dice que el tiempo comenzó a avanzar cuando Dialga nació. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Acero, Dragon.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/483.png" alt="pokemon Dialga">
+                <p class="parrafo-evol">Dialga N.° 0483<br>
+                  Acero, Dragon. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0483":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Dialga <b>N.° 0483</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/483.png" alt="pokemon Dialga">
+            <p class="parrafo">Un Pokémon de leyenda. Se dice que el tiempo comenzó a avanzar cuando Dialga nació. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Acero, Dragon.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/483.png" alt="pokemon Dialga">
+                <p class="parrafo-evol">Dialga N.° 0483<br>
+                  Acero, Dragon. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "palkia":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Palkia <b>N.° 0484</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/484.png" alt="pokemon Palkia">
+            <p class="parrafo">Se dice que vive en una dimensión espacial paralela. Aparece en la mitología. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua, Dragon.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/484.png" alt="pokemon Palkia">
+                <p class="parrafo-evol">Palkia N.° 0484<br>
+                  Agua, Dragon. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0484":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Palkia <b>N.° 0484</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/484.png" alt="pokemon Palkia">
+            <p class="parrafo">Se dice que vive en una dimensión espacial paralela. Aparece en la mitología. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua, Dragon.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/484.png" alt="pokemon Palkia">
+                <p class="parrafo-evol">Palkia N.° 0484<br>
+                  Agua, Dragon. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "heatran":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Heatran <b>N.° 0485</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/485.png" alt="pokemon Heatran">
+            <p class="parrafo">Habita cuevas volcánicas. Cava con sus pies en forma de cruz para trepar por techos y paredes. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego, Acero.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Lucha, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/485.png" alt="pokemon Heatran">
+                <p class="parrafo-evol">Heatran N.° 0485<br>
+                  Fuego, Acero. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0485":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Heatran <b>N.° 0485</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/485.png" alt="pokemon Heatran">
+            <p class="parrafo">Habita cuevas volcánicas. Cava con sus pies en forma de cruz para trepar por techos y paredes. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego, Acero.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Lucha, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/485.png" alt="pokemon Heatran">
+                <p class="parrafo-evol">Heatran N.° 0485<br>
+                  Fuego, Acero. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "regigigas":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Regigigas <b>N.° 0486</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/486.png" alt="pokemon Regigigas">
+            <p class="parrafo">Se dice que usó rocas, magma y un hielo especial de montaña para crear Pokémon con su aspecto.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/486.png" alt="pokemon Regigigas">
+                <p class="parrafo-evol">Regigigas N.° 0486<br>
+                  Normal. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0486":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Regigigas <b>N.° 0486</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/486.png" alt="pokemon Regigigas">
+            <p class="parrafo">Se dice que usó rocas, magma y un hielo especial de montaña para crear Pokémon con su aspecto.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/486.png" alt="pokemon Regigigas">
+                <p class="parrafo-evol">Regigigas N.° 0486<br>
+                  Normal. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "giratina":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Giratina <b>N.° 0487</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/487.png" alt="pokemon Giratina">
+            <p class="parrafo">Vive en el Mundo Distorsión, un mundo opuesto al nuestro y cuyas leyes desafían el sentido común.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fantasma, Dragon.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Hada, Hielo, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/487.png" alt="pokemon Giratina">
+                <p class="parrafo-evol">Giratina N.° 0487<br>
+                  Fantasma, Dragon. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0487":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Giratina <b>N.° 0487</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/487.png" alt="pokemon Giratina">
+            <p class="parrafo">Vive en el Mundo Distorsión, un mundo opuesto al nuestro y cuyas leyes desafían el sentido común.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fantasma, Dragon.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Hada, Hielo, Dragon.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/487.png" alt="pokemon Giratina">
+                <p class="parrafo-evol">Giratina N.° 0487<br>
+                  Fantasma, Dragon. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "cresselia":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Cresselia <b>N.° 0488</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/488.png" alt="pokemon Cresselia">
+            <p class="parrafo">Sus alas emiten un velo de partículas brillantes. Se dice que representa un cuarto lunar.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/488.png" alt="pokemon Cresselia">
+                <p class="parrafo-evol">Cresselia N.° 0488<br>
+                  Psiquico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    
+    case "0488":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Cresselia <b>N.° 0488</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/488.png" alt="pokemon Cresselia">
+            <p class="parrafo">Sus alas emiten un velo de partículas brillantes. Se dice que representa un cuarto lunar.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Siniestro, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/488.png" alt="pokemon Cresselia">
+                <p class="parrafo-evol">Cresselia N.° 0488<br>
+                  Psiquico. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "phione":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Phione <b>N.° 0489</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/489.png" alt="pokemon Phione">
+            <p class="parrafo">Si sube la temperatura del mar, infla el flotador de su cabeza y flota en grupo en la superficie. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/489.png" alt="pokemon Phione">
+                <p class="parrafo-evol">Phione N.° 0489<br>
+                  Agua. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0489":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Phione <b>N.° 0489</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/489.png" alt="pokemon Phione">
+            <p class="parrafo">Si sube la temperatura del mar, infla el flotador de su cabeza y flota en grupo en la superficie. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/489.png" alt="pokemon Phione">
+                <p class="parrafo-evol">Phione N.° 0489<br>
+                  Agua. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "manaphy":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Manaphy <b>N.° 0490</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/490.png" alt="pokemon Manaphy">
+            <p class="parrafo">Nace con un maravilloso poder que le permite establecer vínculos con cualquier tipo de Pokémon.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/490.png" alt="pokemon Manaphy">
+                <p class="parrafo-evol">Manaphy N.° 0490<br>
+                  Agua. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0490":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Manaphy <b>N.° 0490</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/490.png" alt="pokemon Manaphy">
+            <p class="parrafo">Nace con un maravilloso poder que le permite establecer vínculos con cualquier tipo de Pokémon.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/490.png" alt="pokemon Manaphy">
+                <p class="parrafo-evol">Manaphy N.° 0490<br>
+                  Agua. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "darkrai":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Darkrai <b>N.° 0491</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/491.png" alt="pokemon Darkrai">
+            <p class="parrafo">Defiende su territorio de personas y Pokémon haciéndoles dormir y provocándoles pesadillas.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Bicho, Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/491.png" alt="pokemon Darkrai">
+                <p class="parrafo-evol">Darkrai N.° 0491<br>
+                  Siniestro. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0491":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Darkrai <b>N.° 0491</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/491.png" alt="pokemon Darkrai">
+            <p class="parrafo">Defiende su territorio de personas y Pokémon haciéndoles dormir y provocándoles pesadillas.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Siniestro.<br>
+            <b style="color:#0000ff">Debilidad:</b> Hada, Bicho, Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/491.png" alt="pokemon Darkrai">
+                <p class="parrafo-evol">Darkrai N.° 0491<br>
+                  Siniestro. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "shaymin":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Shaymin <b>N.° 0492</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/492.png" alt="pokemon Shaymin">
+            <p class="parrafo">Puede disolver las toxinas del aire para transformar tierra yerma en campos de flores. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/492.png" alt="pokemon Shaymin">
+                <p class="parrafo-evol">Shaymin N.° 0492<br>
+                  Planta. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0492":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Shaymin <b>N.° 0492</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/492.png" alt="pokemon Shaymin">
+            <p class="parrafo">Puede disolver las toxinas del aire para transformar tierra yerma en campos de flores. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/492.png" alt="pokemon Shaymin">
+                <p class="parrafo-evol">Shaymin N.° 0492<br>
+                  Planta. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "arceus":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Arceus <b>N.° 0493</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/493.png" alt="pokemon Arceus">
+            <p class="parrafo">Según la mitología de Sinnoh, Arceus surgió de un huevo y después creó todo el mundo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png" alt="pokemon Arceus">
+                <p class="parrafo-evol">Arceus N.° 0493<br>
+                  Normal. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0493":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Arceus <b>N.° 0493</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/493.png" alt="pokemon Arceus">
+            <p class="parrafo">Según la mitología de Sinnoh, Arceus surgió de un huevo y después creó todo el mundo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Normal.<br>
+            <b style="color:#0000ff">Debilidad:</b> Lucha.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/493.png" alt="pokemon Arceus">
+                <p class="parrafo-evol">Arceus N.° 0493<br>
+                  Normal. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "victini":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Victini <b>N.° 0494</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/494.png" alt="pokemon Victini">
+            <p class="parrafo">Pokémon que atrae la victoria. Dicen que el Entrenador que lo lleve saldrá vencedor de cualquier batalla. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico, Fuego.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Agua, Tierra, Siniestro, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/494.png" alt="pokemon Victini">
+                <p class="parrafo-evol">Victini N.° 0494<br>
+                  Psiquico, Fuego. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0494":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Victini <b>N.° 0494</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/494.png" alt="pokemon Victini">
+            <p class="parrafo">Pokémon que atrae la victoria. Dicen que el Entrenador que lo lleve saldrá vencedor de cualquier batalla. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Psiquico, Fuego.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fantasma, Agua, Tierra, Siniestro, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/494.png" alt="pokemon Victini">
+                <p class="parrafo-evol">Victini N.° 0494<br>
+                  Psiquico, Fuego. <br><br>
+                  Este Pokemon no evoluciona.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "snivy":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Snivy <b>N.° 0495</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/495.png" alt="pokemon Snivy">
+            <p class="parrafo">Cuando recibe los rayos de sol, se mueve mucho más rápido que de costumbre. Usa mejor sus lianas que sus manos.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/495.png" alt="pokemon Snivy">
+                <p class="parrafo-evol">Snivy N.° 0495<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/496.png" alt="pokemon Servine">
+                <p class="parrafo-evol">Servine N.° 0496<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/497.png" alt="pokemon Serperior">
+                <p class="parrafo-evol">Serperior N.° 0497<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0495":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Snivy <b>N.° 0495</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/495.png" alt="pokemon Snivy">
+            <p class="parrafo">Cuando recibe los rayos de sol, se mueve mucho más rápido que de costumbre. Usa mejor sus lianas que sus manos.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/495.png" alt="pokemon Snivy">
+                <p class="parrafo-evol">Snivy N.° 0495<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/496.png" alt="pokemon Servine">
+                <p class="parrafo-evol">Servine N.° 0496<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/497.png" alt="pokemon Serperior">
+                <p class="parrafo-evol">Serperior N.° 0497<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "servine":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Servine <b>N.° 0496</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/496.png" alt="pokemon Servine">
+            <p class="parrafo">Parece que se desliza al correr. Engaña a sus rivales con su velocidad y los fustiga con su látigo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/495.png" alt="pokemon Snivy">
+                <p class="parrafo-evol">Snivy N.° 0495<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/496.png" alt="pokemon Servine">
+                <p class="parrafo-evol">Servine N.° 0496<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/497.png" alt="pokemon Serperior">
+                <p class="parrafo-evol">Serperior N.° 0497<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0496":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Servine <b>N.° 0496</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/496.png" alt="pokemon Servine">
+            <p class="parrafo">Parece que se desliza al correr. Engaña a sus rivales con su velocidad y los fustiga con su látigo.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/495.png" alt="pokemon Snivy">
+                <p class="parrafo-evol">Snivy N.° 0495<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/496.png" alt="pokemon Servine">
+                <p class="parrafo-evol">Servine N.° 0496<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/497.png" alt="pokemon Serperior">
+                <p class="parrafo-evol">Serperior N.° 0497<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "serperior":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Serperior <b>N.° 0497</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/497.png" alt="pokemon Serperior">
+            <p class="parrafo">Tan solo muestra su verdadero poder a quienes no se amedrentan ante su noble pero inquisitoria mirada.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/495.png" alt="pokemon Snivy">
+                <p class="parrafo-evol">Snivy N.° 0495<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/496.png" alt="pokemon Servine">
+                <p class="parrafo-evol">Servine N.° 0496<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/497.png" alt="pokemon Serperior">
+                <p class="parrafo-evol">Serperior N.° 0497<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0497":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Serperior <b>N.° 0497</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/497.png" alt="pokemon Serperior">
+            <p class="parrafo">Tan solo muestra su verdadero poder a quienes no se amedrentan ante su noble pero inquisitoria mirada.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Planta.<br>
+            <b style="color:#0000ff">Debilidad:</b> Fuego, Volador, Hielo, Veneno, Bicho.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/495.png" alt="pokemon Snivy">
+                <p class="parrafo-evol">Snivy N.° 0495<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/496.png" alt="pokemon Servine">
+                <p class="parrafo-evol">Servine N.° 0496<br>
+                  Planta.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/497.png" alt="pokemon Serperior">
+                <p class="parrafo-evol">Serperior N.° 0497<br>
+                  Planta.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "tepig":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Tepig <b>N.° 0498</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/498.png" alt="pokemon Tepig">
+            <p class="parrafo">Evita con agilidad los ataques enemigos. Lanza bolas de fuego por su hocico y tuesta bayas del bosque para comer. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Tierra, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/498.png" alt="pokemon Tepig">
+                <p class="parrafo-evol">Tepig N.° 0498<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/499.png" alt="pokemon Pignite">
+                <p class="parrafo-evol">Pignite N.° 0499<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/500.png" alt="pokemon Emboar">
+                <p class="parrafo-evol">Emboar N.° 0500<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0498":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Tepig <b>N.° 0498</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/498.png" alt="pokemon Tepig">
+            <p class="parrafo">Evita con agilidad los ataques enemigos. Lanza bolas de fuego por su hocico y tuesta bayas del bosque para comer. <br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Tierra, Roca.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/498.png" alt="pokemon Tepig">
+                <p class="parrafo-evol">Tepig N.° 0498<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/499.png" alt="pokemon Pignite">
+                <p class="parrafo-evol">Pignite N.° 0499<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/500.png" alt="pokemon Emboar">
+                <p class="parrafo-evol">Emboar N.° 0500<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "pignite":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Pignite <b>N.° 0499</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/499.png" alt="pokemon Pignite">
+            <p class="parrafo">Cuanto más come, más combustible tiene en su interior para avivar sus llamas, con lo que también aumenta su poder.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego, Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Psiquico, Volador, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/498.png" alt="pokemon Tepig">
+                <p class="parrafo-evol">Tepig N.° 0498<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/499.png" alt="pokemon Pignite">
+                <p class="parrafo-evol">Pignite N.° 0499<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/500.png" alt="pokemon Emboar">
+                <p class="parrafo-evol">Emboar N.° 0500<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0499":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Pignite <b>N.° 0499</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/499.png" alt="pokemon Pignite">
+            <p class="parrafo">Cuanto más come, más combustible tiene en su interior para avivar sus llamas, con lo que también aumenta su poder.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego, Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Psiquico, Volador, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/498.png" alt="pokemon Tepig">
+                <p class="parrafo-evol">Tepig N.° 0498<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/499.png" alt="pokemon Pignite">
+                <p class="parrafo-evol">Pignite N.° 0499<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/500.png" alt="pokemon Emboar">
+                <p class="parrafo-evol">Emboar N.° 0500<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "emboar":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Emboar <b>N.° 0500</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/500.png" alt="pokemon Emboar">
+            <p class="parrafo">Calienta sus puños con las llamas de su barbilla para propinar puñetazos ardientes. Es muy fiel a sus compañeros.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego, Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Psiquico, Volador, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/498.png" alt="pokemon Tepig">
+                <p class="parrafo-evol">Tepig N.° 0498<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/499.png" alt="pokemon Pignite">
+                <p class="parrafo-evol">Pignite N.° 0499<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/500.png" alt="pokemon Emboar">
+                <p class="parrafo-evol">Emboar N.° 0500<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0500":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Emboar <b>N.° 0500</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/500.png" alt="pokemon Emboar">
+            <p class="parrafo">Calienta sus puños con las llamas de su barbilla para propinar puñetazos ardientes. Es muy fiel a sus compañeros.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Fuego, Lucha.<br>
+            <b style="color:#0000ff">Debilidad:</b> Agua, Psiquico, Volador, Tierra.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/498.png" alt="pokemon Tepig">
+                <p class="parrafo-evol">Tepig N.° 0498<br>
+                  Fuego.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/499.png" alt="pokemon Pignite">
+                <p class="parrafo-evol">Pignite N.° 0499<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/500.png" alt="pokemon Emboar">
+                <p class="parrafo-evol">Emboar N.° 0500<br>
+                  Fuego, Lcuha.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "oshawott":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Oshawott <b>N.° 0501</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/501.png" alt="pokemon Oshawott">
+            <p class="parrafo">La vieira de su ombligo no solo sirve como arma, sino también como instrumento para cortar las bayas que estén duras.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/501.png" alt="pokemon Oshawott">
+                <p class="parrafo-evol">Oshawott N.° 0501<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/502.png" alt="pokemon Dewott">
+                <p class="parrafo-evol">Dewott N.° 0502<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/503.png" alt="pokemon Samurott">
+                <p class="parrafo-evol">Samurott N.° 0503<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0501":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Oshawott <b>N.° 0501</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/501.png" alt="pokemon Oshawott">
+            <p class="parrafo">La vieira de su ombligo no solo sirve como arma, sino también como instrumento para cortar las bayas que estén duras.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/501.png" alt="pokemon Oshawott">
+                <p class="parrafo-evol">Oshawott N.° 0501<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/502.png" alt="pokemon Dewott">
+                <p class="parrafo-evol">Dewott N.° 0502<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/503.png" alt="pokemon Samurott">
+                <p class="parrafo-evol">Samurott N.° 0503<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "dewott":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Dewott <b>N.° 0502</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/502.png" alt="pokemon Dewott">
+            <p class="parrafo">Gran espadachín. Utiliza sus dos vieiras con soltura al ejecutar las técnicas que aprende con una disciplina espartana.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/501.png" alt="pokemon Oshawott">
+                <p class="parrafo-evol">Oshawott N.° 0501<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/502.png" alt="pokemon Dewott">
+                <p class="parrafo-evol">Dewott N.° 0502<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/503.png" alt="pokemon Samurott">
+                <p class="parrafo-evol">Samurott N.° 0503<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0502":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Dewott <b>N.° 0502</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/502.png" alt="pokemon Dewott">
+            <p class="parrafo">Gran espadachín. Utiliza sus dos vieiras con soltura al ejecutar las técnicas que aprende con una disciplina espartana.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/501.png" alt="pokemon Oshawott">
+                <p class="parrafo-evol">Oshawott N.° 0501<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/502.png" alt="pokemon Dewott">
+                <p class="parrafo-evol">Dewott N.° 0502<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/503.png" alt="pokemon Samurott">
+                <p class="parrafo-evol">Samurott N.° 0503<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "samurott":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Samurott <b>N.° 0503</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/503.png" alt="pokemon Samurott">
+            <p class="parrafo">En un abrir y cerrar de ojos, puede desenvainar y envainar los sables que hay en sus patas delanteras.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/501.png" alt="pokemon Oshawott">
+                <p class="parrafo-evol">Oshawott N.° 0501<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/502.png" alt="pokemon Dewott">
+                <p class="parrafo-evol">Dewott N.° 0502<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/503.png" alt="pokemon Samurott">
+                <p class="parrafo-evol">Samurott N.° 0503<br>
+                  Agua.
+                </p>
+              </div>
+            </div>
+          </div> `;
+          break;
+    case "0503":
+      informacion.innerHTML = `
+        <h2 class="t-pokemon">Samurott <b>N.° 0503</b></h2>
+          <div class="datos-pokemon">
+            <img class="img-pokemon" src="https://assets.pokemon.com/assets/cms2/img/pokedex/full/503.png" alt="pokemon Samurott">
+            <p class="parrafo">En un abrir y cerrar de ojos, puede desenvainar y envainar los sables que hay en sus patas delanteras.<br><br>
+            <b style="color:#0000ff">Tipo:</b> Agua.<br>
+            <b style="color:#0000ff">Debilidad:</b> Planta, Electrico.
+            </p>    
+          </div>
+          <div class="evol-pokemon">
+            <h3 class="t-evol">Evoluciones</h3>
+            <div class="contenedor">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/501.png" alt="pokemon Oshawott">
+                <p class="parrafo-evol">Oshawott N.° 0501<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/502.png" alt="pokemon Dewott">
+                <p class="parrafo-evol">Dewott N.° 0502<br>
+                  Agua.
+                </p>
+              </div>
+              <img class="img-arrow" src="../img/arrow.svg" alt="flecha">
+              <div class="card-evol">
+                <img class="img-card" src="https://assets.pokemon.com/assets/cms2/img/pokedex/detail/503.png" alt="pokemon Samurott">
+                <p class="parrafo-evol">Samurott N.° 0503<br>
+                  Agua.
                 </p>
               </div>
             </div>
