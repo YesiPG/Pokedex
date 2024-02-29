@@ -1,0 +1,29 @@
+@use "var";
+
+@mixin flex($justy,$align){
+    display: flex;
+    justify-content: $justy;
+    align-items: $align;
+}
+
+@mixin grid($column,$row){
+    display: grid;
+    grid-template-columns: $column;
+    grid-template-rows: $row;
+}
+
+@mixin titulo($size,$color){
+    font-family: var.$titulo;
+    font-size: $size;
+    color: $color;
+}
+@mixin subtitulo($size,$color){
+    font-family: var.$subtitulo;
+    font-size: $size;
+    color: $color;
+}
+@mixin parrafo($size,$color){
+    font-family: var.$parrafo;
+    font-size: $size;
+    color: $color;
+}

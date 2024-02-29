@@ -1,0 +1,15 @@
+
+*,*::after,*::before{
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    resize: none;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    font-size: 10px;
+    scroll-behavior: smooth;
+}

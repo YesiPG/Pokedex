@@ -1,0 +1,49 @@
+
+// Color
+
+$blanco: #fff;
+$negro: #000;
+$rojo: #b60000;
+
+$normal: #A8A77A;
+$fuego: #EE8130;
+$agua: #6390F0;
+$planta: #7AC74C;
+$eléctrico: #F7D02C;
+$hielo: #96D9D6;
+$lucha: #C22E28;
+$veneno: #A33EA1;
+$tierra: #E2BF65;
+$volador: #A98FF3;
+$psíquico: #F95587;
+$bicho: #A6B91A;
+$roca: #B6A136;
+$fantasma: #735797;
+$dragón: #6F35FC;
+$siniestro: #705746;
+$acero: #B7B7CE;
+$hada: #D685AD;
+
+
+// Fonts
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+
+$titulo: "Press Start 2P", system-ui;
+$subtitulo: "Roboto", sans-serif;
+$parrafo: "Open Sans", sans-serif;
+
+$titulo_size1: 2.4rem;
+$titulo_size2: 2.8rem;
+$titulo_size3: 3.2rem;
+$titulo_size4: 3.6rem;
+
+$subtitulo_size1: 1.8rem;
+$subtitulo_size2: 2rem;
+$subtitulo_size3: 2.4rem;
+
+$parrafo_size1: 1.6rem;
+$parrafo_size2: 1.8rem;
+$parrafo_size3: 2rem;
