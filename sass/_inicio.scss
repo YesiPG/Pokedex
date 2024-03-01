@@ -31,6 +31,7 @@
             margin: 1rem;
             transition: color .3s ease;
             pointer-events: unset;
+            user-select: none;
 
             &:hover{
                 color: var.$electrico;
@@ -73,14 +74,14 @@
         position: relative;
         padding-top: 5rem;
         width: 100%;
-        height: 50vh;
+        height: 100vh;
         @include mixins.flex(center,center);
 
         &::before{
             content: "";
             position: absolute;
             width: 100%;
-            height: 50vh;
+            height: 100%;
             background-image: url("../image/fondo1.png");
             background-repeat: no-repeat;
             background-size: cover; 
@@ -90,7 +91,7 @@
 
     &_text{
         background-color: rgba($color: #000000, $alpha: .5);
-        width: 60%;
+        width: 40%;
         padding: 2rem
     }
 
@@ -110,6 +111,16 @@
         font-weight: 100;
     }
 
+    @media screen and (max-width: 1200px){
+        &_text{
+            width: 50%;
+        }
+    }
+    @media screen and (max-width: 987px){
+        &_text{
+            width: 60%;
+        }
+    }
     @media screen and (max-width: 768px){
         margin-bottom: 8rem;
         .nav{
@@ -146,6 +157,11 @@
         
         &_cont{
             top: 4.5rem;
+            height: 70vh;
+
+            &::before{
+                height: 100%;
+            }
         }
 
         &_text{
@@ -162,8 +178,7 @@
             }
 
             &_boton{
-                top: 2.5rem;
-                right: 4rem;
+                right: 8rem;
             }
         }
 
@@ -185,8 +200,7 @@
             }
 
             &_boton{
-                top: 2.5rem;
-                right: 2rem;
+                right: 6rem;
             }
         }
     }
@@ -194,6 +208,11 @@
     @media screen and (max-width: 390px) {
         &_title{
             font-size: var.$titulo_size3;
+        }
+    }
+    @media screen and (max-width: 320px) {
+        &_title{
+            font-size: var.$titulo_size4;
         }
     }
 
