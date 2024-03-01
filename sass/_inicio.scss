@@ -108,10 +108,10 @@
     &_intro{
         @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
         font-weight: 100;
-        margin-bottom: 2rem;
     }
 
     @media screen and (max-width: 768px){
+        margin-bottom: 8rem;
         .nav{
 
             &_cont{
@@ -143,6 +143,14 @@
                 pointer-events: unset;
             }
         }
+        
+        &_cont{
+            top: 4.5rem;
+        }
+
+        &_text{
+            width: 80%;
+        }
     }
 
     @media screen and (max-width: 576px) {
@@ -157,6 +165,14 @@
                 top: 2.5rem;
                 right: 4rem;
             }
+        }
+
+        &_text{
+            width: 90%;
+        }
+
+        &_title{
+            font-size: var.$titulo_size1;
         }
     }
 
@@ -176,7 +192,9 @@
     }
 
     @media screen and (max-width: 390px) {
-        
+        &_title{
+            font-size: var.$titulo_size3;
+        }
     }
 
 }

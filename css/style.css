@@ -128,9 +128,11 @@ body {
   font-size: 1.6rem;
   color: #fff;
   font-weight: 100;
-  margin-bottom: 2rem;
 }
 @media screen and (max-width: 768px) {
+  .hero {
+    margin-bottom: 8rem;
+  }
   .hero .nav_cont {
     position: absolute;
     top: 2rem;
@@ -156,6 +158,12 @@ body {
     opacity: 1;
     pointer-events: unset;
   }
+  .hero_cont {
+    top: 4.5rem;
+  }
+  .hero_text {
+    width: 80%;
+  }
 }
 @media screen and (max-width: 576px) {
   .hero .nav {
@@ -169,6 +177,12 @@ body {
     top: 2.5rem;
     right: 4rem;
   }
+  .hero_text {
+    width: 90%;
+  }
+  .hero_title {
+    font-size: 2.4rem;
+  }
 }
 @media screen and (max-width: 480px) {
   .hero .nav {
@@ -181,6 +195,11 @@ body {
   .hero .nav_boton {
     top: 2.5rem;
     right: 2rem;
+  }
+}
+@media screen and (max-width: 390px) {
+  .hero_title {
+    font-size: 2.2rem;
   }
 }
 
