@@ -2,5 +2,181 @@
 @use "mixins";
 
 .hero{
-    
+    width: 100%;
+    @include mixins.grid(1fr,10% 1fr);
+    position: relative;
+    margin-bottom: 4rem;
+    .nav{
+        background-color: var.$rojo;
+        @include mixins.flex(space-between,center);
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        padding: 1.5rem 8rem;
+        z-index: 90;
+
+        &_logo{
+            max-width: 100%;
+            width: 12rem;
+            object-fit: cover;
+        }
+
+        &_cont{
+            position: relative;
+        }
+
+        &_link{
+            @include mixins.subtitulo(var.$subtitulo_size1,var.$blanco);
+            margin: 1rem;
+            transition: color .3s ease;
+            pointer-events: unset;
+
+            &:hover{
+                color: var.$electrico;
+            }
+            &--active{
+                padding: 2.6rem 1rem;
+                background-color: #000000;
+                pointer-events: none;
+                
+            }
+        }
+
+        &_boton{
+            cursor: pointer;
+            background-color: rgba($color: #000000, $alpha: 0);
+            position: absolute;
+            top: 2rem;
+            right: 8rem;
+            transform: rotate(0);
+            transition: transform .5s ease;
+            opacity: 0;
+            pointer-events: none;
+            filter: invert(1);
+
+            &:hover{
+                transform: rotate(180deg);
+            }
+
+        }
+
+        &_img{
+            pointer-events: none;
+            width: 3rem;
+            object-fit: cover;
+        }
+
+    }
+
+    &_cont{
+        position: relative;
+        padding-top: 5rem;
+        width: 100%;
+        height: 50vh;
+        @include mixins.flex(center,center);
+
+        &::before{
+            content: "";
+            position: absolute;
+            width: 100%;
+            height: 50vh;
+            background-image: url("../image/fondo1.png");
+            background-repeat: no-repeat;
+            background-size: cover; 
+            z-index: -1; 
+        }
+    }
+
+    &_text{
+        background-color: rgba($color: #000000, $alpha: .5);
+        width: 60%;
+        padding: 2rem
+    }
+
+    &_title{
+        @include mixins.titulo(var.$titulo_size2,var.$blanco);
+        text-align: center;
+        margin-bottom: 2rem;
+        line-height: 3.5rem;
+    }
+    &_subtitle{
+        @include mixins.subtitulo(var.$subtitulo_size2,var.$blanco);
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    &_intro{
+        @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+        font-weight: 100;
+        margin-bottom: 2rem;
+    }
+
+    @media screen and (max-width: 768px){
+        .nav{
+
+            &_cont{
+                position: absolute;
+                top: 2rem;
+                right: -100rem;
+                background-color: var.$rojo;
+                @include mixins.flex(center,center);
+                flex-direction: column;
+                width: 25rem;
+                height: 35rem;
+                pointer-events: none;
+                transition: right 1s ease;
+
+                &--active{
+                    right: 0;
+                }
+                
+            }
+
+            &_link{
+                &--active{
+                    width: 100%;
+                    text-align: center;
+                }
+            }
+            &_boton{
+                opacity: 1;
+                pointer-events: unset;
+            }
+        }
+    }
+
+    @media screen and (max-width: 576px) {
+        .nav{
+            padding: 1.5rem 4rem;
+            &_cont{
+                top: 5rem;
+                width: 30rem;
+            }
+
+            &_boton{
+                top: 2.5rem;
+                right: 4rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .nav{
+            padding: 1.5rem 2rem;
+            &_cont{
+                top: 6.5rem;
+                width: 100%;
+            }
+
+            &_boton{
+                top: 2.5rem;
+                right: 2rem;
+            }
+        }
+    }
+
+    @media screen and (max-width: 390px) {
+        
+    }
+
 }

@@ -1,5 +1,5 @@
 
-*,*::after,*::before{
+*,*::before,*::after{
     box-sizing: border-box;
     border: none;
     outline: none;
@@ -12,4 +12,8 @@
 html{
     font-size: 10px;
     scroll-behavior: smooth;
+}
+
+body{
+    overflow-x: hidden;
 }
