@@ -217,3 +217,125 @@
     }
 
 }
+
+.news{
+    padding: 8rem 8rem 0;
+
+    &_title{
+        @include mixins.subtitulo(var.$subtitulo_size3,var.$negro);
+        text-align: center;
+        margin-bottom: 4rem;  
+    }
+
+    &_cont1{
+        @include mixins.flex(center,center);
+    }
+
+    &_article{
+        width: 40rem;
+        height: 41rem;
+        margin: 2rem;
+        @include mixins.flex(Start,Start);
+        flex-direction: column;
+        background-color: var.$blanco;
+        transition: background-color .5s ease;
+        border-radius: .6rem;
+
+        &:hover{
+            background-color: var.$gris;
+        }
+    }
+
+    &_image{
+        max-width: 100%;
+        width: 100%;
+        height: 25rem;
+        border-top-left-radius: .6rem;
+        border-top-right-radius: .6rem;
+        object-fit: cover;
+    }
+
+    &_fecha{
+        @include mixins.parrafo(1.2rem,var.$rojo);
+        margin: .5rem 2rem 0;
+    }
+    &_categoria{
+        @include mixins.parrafo(1.3rem,#555);
+        margin: .5rem 2rem 0;
+    }
+
+    &_title2{
+        margin: 1rem 2rem;
+        @include mixins.subtitulo(var.$parrafo_size2,var.$negro);
+    }
+
+    &_text{
+        margin: 0 2rem;
+        @include mixins.parrafo(var.$parrafo_size1,var.$negro);
+    }
+
+    &_cont2{
+        margin: 4rem 0;
+    }
+
+    #news_filter{
+        background-color: var.$rojo;
+        color: var.$blanco;
+        padding: 1rem;
+        border-radius: 1rem;
+    }
+
+    &_list{
+        @include mixins.flex(space-around,center);
+        flex-wrap: wrap;
+    }
+
+    &_article2{
+        width: 30rem;
+    }
+
+    &_image2{
+        height: 20rem;
+    }
+
+    // RESPONSIVE -----------------------------------------------------------------
+
+    @media screen and (max-width: 768px){
+     
+        &_article2{
+            width: 25rem;
+        }
+
+        &_title2{
+            margin: 1rem 0rem;
+        }
+        &_fecha{
+            margin: .5rem 0 0;
+        }
+        &_categoria{
+            margin: .5rem 0 0;
+        }
+        &_text{
+            margin: 0;
+        }
+    }
+    @media screen and (max-width: 576px){
+        padding: 8rem 4rem 0;
+
+        &_cont1{
+            flex-wrap: wrap;
+        }
+
+        &_article2{
+            width: 40rem;
+        }
+        
+    }
+    @media screen and (max-width: 480px){
+        padding: 8rem 2rem 0;
+        &_article{
+            width: 100%;
+            height: 38rem;
+        }
+    }
+}

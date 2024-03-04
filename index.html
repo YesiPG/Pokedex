@@ -19,7 +19,7 @@
             </div>
             <button class="nav_boton">
                 <img src="icon/menu.svg" alt="menu.svg" class="nav_img">
-            </button>
+            </button> 
         </nav>
         <section class="hero_cont">
             <div class="hero_text">
@@ -31,20 +31,105 @@
     </header>
 
     <section class="news">
-        <h2 class="new_title">Ultimas Noticias</h2>
+        <h2 class="news_title">Ultimas Noticias</h2>
 
         <div class="news_cont1">
-            <article class="news_article">
-                <img src="" alt="" class="news_image">
-                <span>fecha</span>
-                <h3>titulo</h3>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, totam quos omnis autem quod necessitatibus blanditiis quo temporibus voluptatem praesentium odio molestiae hic aliquid. Repellendus qui amet quos quibusdam autem.</p>
-            </article>
+            <a href="#" class="news_article">
+                <img src="image/news1.png" alt="imagen-noticia" class="news_image">
+                <span class="news_fecha">01/marzo/2024</span>
+                <span class="news_categoria">Videojuegos y aplicaciones</span>
+                <h3 class="news_title2">Te damos la bienvenida a la Liga Combates GO: Un Mundo Maravilloso</h3>
+                <p class="news_text">La nueva temporada de combates en Pokemon Go nos trae nuevos ataques y muchas oportunidades para usarlos</p>
+            </a>
+            <a href="#" class="news_article">
+                <img src="image/news2.png" alt="imagen-noticia" class="news_image">
+                <span class="news_fecha">01/marzo/2024</span>
+                <span class="news_categoria">Videojuegos y aplicaciones</span>
+                <h3 class="news_title2">Dalo todo en el desafio global II de 2024</h3>
+                <p class="news_text">Enfréntate a otros jugadores de Pokémon Escarlata y Pokémon Púrpura y consigue grandes recompensas en el segundo Desafío Global de este año.</p>
+            </a>
+        </div>
+
+        <div class="news_cont2">
+            <select name="categoria" id="news_filter">
+                <option value="todo">Todas Las Noticias</option>
+                <option value="carta">Juego De Cartas Colecionables</option>
+                <option value="juego">VideoJuegos y Aplicaciones</option>
+                <option value="anime">Dibujos Animados</option>
+            </select>
+            <div class="news_list">
+                <a href="#" class="news_article news_article2" data-categoria="juego">
+                    <img src="image/news1.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">01/marzo/2024</span>
+                    <span class="news_categoria">Videojuegos y Aplicaciones</span>
+                    <h3 class="news_title2">Te damos la bienvenida a la Liga Combates GO: Un Mundo Maravilloso</h3>
+                    <p class="news_text">La nueva temporada de combates en Pokemon Go nos trae nuevos ataques y muchas oportunidades para usarlos</p>
+                </a>
+                <a href="#" class="news_article news_article2" data-categoria="anime">
+                    <img src="image/news9.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">10/enero/2024</span>
+                    <span class="news_categoria">Dibujos Animados</span>
+                    <h3 class="news_title2">Cuestionario de la serie Viajes Definitivos Pokémon</h3>
+                    <p class="news_text">¿Recuerdas al dedillo los épicos eventos de la temporada 25 de la serie Pokémon?</p>
+                </a>
+                <a href="#" class="news_article news_article2" data-categoria="carta">
+                    <img src="image/news5.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">22/febrero/2024</span>
+                    <span class="news_categoria">Juego de Cartas Coleccionables</span>
+                    <h3 class="news_title2">Un primer vistazo a las cartas de la expansión Escarlata y Púrpura-Fuerzas Temporales de JCC Pokémon</h3>
+                    <p class="news_text">Descubre una nueva carta de AS TÁCTICO, Ferrotesta debuta como Pokémon ex y mucho más en la nueva expansión</p>
+                </a>
+                <a href="#" class="news_article news_article2" data-categoria="anime">
+                    <img src="image/news10.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">13/diciembre/2023</span>
+                    <span class="news_categoria">Dibujos Animados</span>
+                    <h3 class="news_title2">El cuarto episodio de Pokémon: Vientos de Paldea ya está disponible</h3>
+                    <p class="news_text">Embárcate en una aventura Pokémon por la región de Paldea.</p>
+                </a>
+                <a href="#" class="news_article news_article2" data-categoria="juego">
+                    <img src="image/news2.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">01/marzo/2024</span>
+                    <span class="news_categoria">Videojuegos y aplicaciones</span>
+                    <h3 class="news_title2">Dalo todo en el desafio global II de 2024</h3>
+                    <p class="news_text">Enfréntate a otros jugadores de Pokémon Escarlata y Pokémon Púrpura y consigue grandes recompensas en el segundo Desafío Global de este año.</p>
+                </a>
+                <a href="#" class="news_article news_article2" data-categoria="anime">
+                    <img src="image/news8.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">26/febrero/2024</span>
+                    <span class="news_categoria">Dibujos Animados</span>
+                    <h3 class="news_title2">La serie Horizontes Pokémon debuta en Boing</h3>
+                    <p class="news_text">Te aguarda una nueva aventura con apasionantes amistades, Pokémon y desafíos</p>
+                </a>
+                <a href="#" class="news_article news_article2" data-categoria="carta">
+                    <img src="image/news6.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">06/febrero/2024</span>
+                    <span class="news_categoria">Juego de Cartas Coleccionables</span>
+                    <h3 class="news_title2">Las ilustraciones de la expansión Escarlata y Púrpura-Destinos de Paldea de JCC Pokémon</h3>
+                    <p class="news_text">Potencia tus movimientos de ataque físico con la Pasión de Johto de Plata (Neocampeón) y Tyranitar.</p>
+                </a>
+                <a href="#" class="news_article news_article2" data-categoria="juego">
+                    <img src="image/news4.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">27/febrero/2024</span>
+                    <span class="news_categoria">Videojuegos y aplicaciones</span>
+                    <h3 class="news_title2">Celebra el Día de Pokémon con Miraidon en Pokémon UNITE</h3>
+                    <p class="news_text">Descarga el poder del trueno sobre tus rivales con este Pokémon legendario de la región de Paldea.</p>
+                </a>
+                <a href="#" class="news_article news_article2" data-categoria="carta">
+                    <img src="image/news7.png" alt="imagen-noticia" class="news_image news_image2">
+                    <span class="news_fecha">11/enero/2024</span>
+                    <span class="news_categoria">Juego de Cartas Coleccionables</span>
+                    <h3 class="news_title2">Anuncio de la rotación del formato Estándar de JCC Pokémon en 2024</h3>
+                    <p class="news_text">La rotación del formato Estándar en el juego competitivo de 2024 entrará en vigor el 5 de abril de 2024</p>
+                </a>
+            </div>
         </div>
     </section>
 
+    <section class=""></section>
+
     <!-- Scripts -->
     <script src="js/menu.js"></script>
+    <script src="js/newsFilter.js"></script>
     
 </body>
 </html>
