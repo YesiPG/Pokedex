@@ -1,0 +1,75 @@
+@use "var";
+@use "mixins";
+
+.normal{
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+    @include mixins.tipo(var.$normal);
+}
+.fuego{
+    @include mixins.tipo(var.$fuego);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.agua{
+    @include mixins.tipo(var.$agua);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.planta{
+    @include mixins.tipo(var.$planta);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.electrico{
+    @include mixins.tipo(var.$electrico);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.hielo{
+    @include mixins.tipo(var.$hielo);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.lucha{
+    @include mixins.tipo(var.$lucha);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.veneno{
+    @include mixins.tipo(var.$veneno);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.tierra{
+    @include mixins.tipo(var.$tierra);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.volador{
+    @include mixins.tipo(var.$volador);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.psiquico{
+    @include mixins.tipo(var.$psiquico);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.bicho{
+    @include mixins.tipo(var.$bicho);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.roca{
+    @include mixins.tipo(var.$roca);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.fantasma{
+    @include mixins.tipo(var.$fantasma);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.dragon{
+    @include mixins.tipo(var.$dragon);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.siniestro{
+    @include mixins.tipo(var.$siniestro);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.acero{
+    @include mixins.tipo(var.$acero);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}
+.hada{
+    @include mixins.tipo(var.$hada);
+    @include mixins.parrafo(var.$parrafo_size1,var.$blanco);
+}

@@ -11,11 +11,9 @@
             let categoria = noticias[i].getAttribute('data-categoria');
 
             if (filtro === 'todo' || filtro === categoria) {
-                noticias[i].style.display = 'block';
-                // noticias[i].classList.add("news_article--active");
+                noticias[i].style.display = 'flex';
             }else {
                 noticias[i].style.display = 'none';
-                // noticias[i].classList.remove("news_article--active");
             }
         }
     })

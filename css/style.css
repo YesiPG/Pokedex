@@ -20,6 +20,204 @@ body {
   overflow-x: hidden;
 }
 
+.normal {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+  display: inline-block;
+  background-color: #A8A77A;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+}
+
+.fuego {
+  display: inline-block;
+  background-color: #EE8130;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.agua {
+  display: inline-block;
+  background-color: #6390F0;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.planta {
+  display: inline-block;
+  background-color: #7AC74C;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.electrico {
+  display: inline-block;
+  background-color: #F7D02C;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.hielo {
+  display: inline-block;
+  background-color: #96D9D6;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.lucha {
+  display: inline-block;
+  background-color: #C22E28;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.veneno {
+  display: inline-block;
+  background-color: #A33EA1;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.tierra {
+  display: inline-block;
+  background-color: #E2BF65;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.volador {
+  display: inline-block;
+  background-color: #A98FF3;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.psiquico {
+  display: inline-block;
+  background-color: #F95587;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.bicho {
+  display: inline-block;
+  background-color: #A6B91A;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.roca {
+  display: inline-block;
+  background-color: #B6A136;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.fantasma {
+  display: inline-block;
+  background-color: #735797;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.dragon {
+  display: inline-block;
+  background-color: #6F35FC;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.siniestro {
+  display: inline-block;
+  background-color: #705746;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.acero {
+  display: inline-block;
+  background-color: #B7B7CE;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
+.hada {
+  display: inline-block;
+  background-color: #D685AD;
+  padding: 0.1rem 1rem;
+  border-radius: 1rem;
+  margin: 0.2rem;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #fff;
+}
+
 .hero {
   width: 100%;
   display: grid;
@@ -37,7 +235,7 @@ body {
   top: 0;
   left: 0;
   right: 0;
-  padding: 1.5rem 8rem;
+  padding: 1rem 8rem;
   z-index: 90;
 }
 .hero .nav_logo {
@@ -61,7 +259,7 @@ body {
   color: #F7D02C;
 }
 .hero .nav_link--active {
-  padding: 2.6rem 1rem;
+  padding: 2.1rem 1rem;
   background-color: #000000;
   pointer-events: none;
 }
@@ -340,6 +538,83 @@ body {
     width: 100%;
     height: 38rem;
   }
+}
+
+.outs {
+  margin-bottom: 10rem;
+}
+.outs_title {
+  font-family: "Roboto", sans-serif;
+  font-size: 2.4rem;
+  color: #000;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+.outs_cont {
+  position: relative;
+  width: 100%;
+}
+.outs_cont2 {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: Start;
+  flex-wrap: nowrap;
+  overflow-x: hidden;
+}
+.outs_tarjeta {
+  position: relative;
+  max-width: 100%;
+  width: 60rem;
+  height: 38rem;
+  padding: 1rem;
+  background-color: #444;
+  opacity: 0.8;
+  border: 1px solid #000;
+}
+.outs_tarjeta--active {
+  padding: 0 6rem;
+  height: 40rem;
+  opacity: 1;
+}
+.outs_flechaIzq, .outs_flechaDer {
+  position: absolute;
+  border-radius: 50%;
+  padding: 1rem;
+  width: 5rem;
+  background-color: #fff;
+}
+.outs_flechaIzq {
+  cursor: pointer;
+  left: 5rem;
+  top: 15rem;
+}
+.outs_flechaDer {
+  cursor: pointer;
+  right: 5rem;
+  top: 15rem;
+}
+.outs_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.outs_title2 {
+  font-family: "Roboto", sans-serif;
+  font-size: 2rem;
+  color: #fff;
+  margin: 0.5rem 2rem;
+}
+.outs_info {
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.4rem;
+  color: #d8d8d8;
+  margin: 0.5rem 2rem;
+}
+.outs_image {
+  max-width: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=style.css.map */
