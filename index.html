@@ -1,297 +1,436 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Poke | Inicio</title>
-    <link rel="stylesheet" href="/css/style.css">
-</head>
-<body>
-
+    <link rel="stylesheet" href="/css/style.css" />
+    <link rel="icon" href="image/favicon.png">
+  </head>
+  <body>
     <header class="hero">
-        <nav class="nav">
-            <img src="image/logo.png" alt="logo" class="nav_logo">
-            <div class="nav_cont">
-                <a href="#" class="nav_link nav_link--active">Inicio</a>
-                <a href="#" class="nav_link">Pokemon</a>
-                <a href="#" class="nav_link">Pokedex</a>
-                <a href="#" class="nav_link">VideoJuego</a>
-            </div>
-            <button class="nav_boton">
-                <img src="icon/menu.svg" alt="menu.svg" class="nav_img">
-            </button> 
-        </nav>
-        <section class="hero_cont">
-            <div class="hero_text">
-                <h1 class="hero_title">¡EXPLORA EL MUNDO DE POKEMON!</h1>
-                <h3 class="hero_subtitle">Bienvenido a tu Destino Pokémon. ¡Hazte con Todos!</h3>
-                <p class="hero_intro">¡Prepárate para una aventura inolvidable! Descubre nuevos Pokémon, desafía gimnasios, haz amigos y conviértete en un Maestro Pokémon. Entra en un mundo lleno de misterio, emoción y diversión. ¡Comienza tu viaje hoy mismo!</p>
-            </div>
-        </section>
+      <nav class="nav">
+        <img src="image/logo.png" alt="logo" class="nav_logo" />
+        <div class="nav_cont">
+          <a href="index.html" class="nav_link nav_link--active">Inicio</a>
+          <a href="pokemon.html" class="nav_link">Pokemon</a>
+          <a href="pokedex.html" class="nav_link">Pokedex</a>
+          <a href="videoJuego.html" class="nav_link">VideoJuego</a>
+        </div>
+        <button class="nav_boton">
+          <img src="icon/menu.svg" alt="menu.svg" class="nav_img" />
+        </button>
+      </nav>
+      <section class="hero_cont">
+        <div class="hero_text">
+          <h1 class="hero_title">¡EXPLORA EL MUNDO DE POKEMON!</h1>
+          <h3 class="hero_subtitle">
+            Bienvenido a tu Destino Pokémon. ¡Hazte con Todos!
+          </h3>
+          <p class="hero_intro">
+            ¡Prepárate para una aventura inolvidable! Descubre nuevos Pokémon,
+            desafía gimnasios, haz amigos y conviértete en un Maestro Pokémon.
+            Entra en un mundo lleno de misterio, emoción y diversión. ¡Comienza
+            tu viaje hoy mismo!
+          </p>
+        </div>
+      </section>
     </header>
 
     <section class="news">
-        <h2 class="news_title">Ultimas Noticias</h2>
+      <h2 class="news_title">Ultimas Noticias</h2>
 
-        <div class="news_cont1">
-            <a href="#" class="news_article">
-                <img src="image/news1.png" alt="imagen-noticia" class="news_image">
-                <span class="news_fecha">01/marzo/2024</span>
-                <span class="news_categoria">Videojuegos y aplicaciones</span>
-                <h3 class="news_title2">Te damos la bienvenida a la Liga Combates GO: Un Mundo Maravilloso</h3>
-                <p class="news_text">La nueva temporada de combates en Pokemon Go nos trae nuevos ataques y muchas oportunidades para usarlos</p>
-            </a>
-            <a href="#" class="news_article">
-                <img src="image/news2.png" alt="imagen-noticia" class="news_image">
-                <span class="news_fecha">01/marzo/2024</span>
-                <span class="news_categoria">Videojuegos y aplicaciones</span>
-                <h3 class="news_title2">Dalo todo en el desafio global II de 2024</h3>
-                <p class="news_text">Enfréntate a otros jugadores de Pokémon Escarlata y Pokémon Púrpura y consigue grandes recompensas en el segundo Desafío Global de este año.</p>
-            </a>
-        </div>
+      <div class="news_cont1">
+        <a href="#" class="news_article">
+          <img src="image/news1.png" alt="imagen-noticia" class="news_image" />
+          <span class="news_fecha">01/marzo/2024</span>
+          <span class="news_categoria">Videojuegos y aplicaciones</span>
+          <h3 class="news_title2">
+            Te damos la bienvenida a la Liga Combates GO: Un Mundo Maravilloso
+          </h3>
+          <p class="news_text">
+            La nueva temporada de combates en Pokemon Go nos trae nuevos ataques
+            y muchas oportunidades para usarlos
+          </p>
+        </a>
+        <a href="#" class="news_article">
+          <img src="image/news2.png" alt="imagen-noticia" class="news_image" />
+          <span class="news_fecha">01/marzo/2024</span>
+          <span class="news_categoria">Videojuegos y aplicaciones</span>
+          <h3 class="news_title2">Dalo todo en el desafio global II de 2024</h3>
+          <p class="news_text">
+            Enfréntate a otros jugadores de Pokémon Escarlata y Pokémon Púrpura
+            y consigue grandes recompensas en el segundo Desafío Global de este
+            año.
+          </p>
+        </a>
+      </div>
 
-        <div class="news_cont2">
-            <select name="categoria" id="news_filter">
-                <option value="todo">Todas Las Noticias</option>
-                <option value="carta">Juego De Cartas Colecionables</option>
-                <option value="juego">VideoJuegos y Aplicaciones</option>
-                <option value="anime">Dibujos Animados</option>
-            </select>
-            <div class="news_list">
-                <a href="#" class="news_article news_article2" data-categoria="juego">
-                    <img src="image/news1.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">01/marzo/2024</span>
-                    <span class="news_categoria">Videojuegos y Aplicaciones</span>
-                    <h3 class="news_title2">Te damos la bienvenida a la Liga Combates GO: Un Mundo Maravilloso</h3>
-                    <p class="news_text">La nueva temporada de combates en Pokemon Go nos trae nuevos ataques y muchas oportunidades para usarlos</p>
-                </a>
-                <a href="#" class="news_article news_article2" data-categoria="anime">
-                    <img src="image/news9.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">10/enero/2024</span>
-                    <span class="news_categoria">Dibujos Animados</span>
-                    <h3 class="news_title2">Cuestionario de la serie Viajes Definitivos Pokémon</h3>
-                    <p class="news_text">¿Recuerdas al dedillo los épicos eventos de la temporada 25 de la serie Pokémon?</p>
-                </a>
-                <a href="#" class="news_article news_article2" data-categoria="carta">
-                    <img src="image/news5.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">22/febrero/2024</span>
-                    <span class="news_categoria">Juego de Cartas Coleccionables</span>
-                    <h3 class="news_title2">Un primer vistazo a las cartas de la expansión Escarlata y Púrpura-Fuerzas Temporales de JCC Pokémon</h3>
-                    <p class="news_text">Descubre una nueva carta de AS TÁCTICO, Ferrotesta debuta como Pokémon ex y mucho más en la nueva expansión</p>
-                </a>
-                <a href="#" class="news_article news_article2" data-categoria="anime">
-                    <img src="image/news10.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">13/diciembre/2023</span>
-                    <span class="news_categoria">Dibujos Animados</span>
-                    <h3 class="news_title2">El cuarto episodio de Pokémon: Vientos de Paldea ya está disponible</h3>
-                    <p class="news_text">Embárcate en una aventura Pokémon por la región de Paldea.</p>
-                </a>
-                <a href="#" class="news_article news_article2" data-categoria="juego">
-                    <img src="image/news2.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">01/marzo/2024</span>
-                    <span class="news_categoria">Videojuegos y aplicaciones</span>
-                    <h3 class="news_title2">Dalo todo en el desafio global II de 2024</h3>
-                    <p class="news_text">Enfréntate a otros jugadores de Pokémon Escarlata y Pokémon Púrpura y consigue grandes recompensas en el segundo Desafío Global de este año.</p>
-                </a>
-                <a href="#" class="news_article news_article2" data-categoria="anime">
-                    <img src="image/news8.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">26/febrero/2024</span>
-                    <span class="news_categoria">Dibujos Animados</span>
-                    <h3 class="news_title2">La serie Horizontes Pokémon debuta en Boing</h3>
-                    <p class="news_text">Te aguarda una nueva aventura con apasionantes amistades, Pokémon y desafíos</p>
-                </a>
-                <a href="#" class="news_article news_article2" data-categoria="carta">
-                    <img src="image/news6.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">06/febrero/2024</span>
-                    <span class="news_categoria">Juego de Cartas Coleccionables</span>
-                    <h3 class="news_title2">Las ilustraciones de la expansión Escarlata y Púrpura-Destinos de Paldea de JCC Pokémon</h3>
-                    <p class="news_text">Potencia tus movimientos de ataque físico con la Pasión de Johto de Plata (Neocampeón) y Tyranitar.</p>
-                </a>
-                <a href="#" class="news_article news_article2" data-categoria="juego">
-                    <img src="image/news4.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">27/febrero/2024</span>
-                    <span class="news_categoria">Videojuegos y aplicaciones</span>
-                    <h3 class="news_title2">Celebra el Día de Pokémon con Miraidon en Pokémon UNITE</h3>
-                    <p class="news_text">Descarga el poder del trueno sobre tus rivales con este Pokémon legendario de la región de Paldea.</p>
-                </a>
-                <a href="#" class="news_article news_article2" data-categoria="carta">
-                    <img src="image/news7.png" alt="imagen-noticia" class="news_image news_image2">
-                    <span class="news_fecha">11/enero/2024</span>
-                    <span class="news_categoria">Juego de Cartas Coleccionables</span>
-                    <h3 class="news_title2">Anuncio de la rotación del formato Estándar de JCC Pokémon en 2024</h3>
-                    <p class="news_text">La rotación del formato Estándar en el juego competitivo de 2024 entrará en vigor el 5 de abril de 2024</p>
-                </a>
-            </div>
+      <div class="news_cont2">
+        <select name="categoria" id="news_filter">
+          <option value="todo">Todas Las Noticias</option>
+          <option value="carta">Juego De Cartas Colecionables</option>
+          <option value="juego">VideoJuegos y Aplicaciones</option>
+          <option value="anime">Dibujos Animados</option>
+        </select>
+        <div class="news_list">
+          <a href="#" class="news_article news_article2" data-categoria="juego">
+            <img
+              src="image/news1.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">01/marzo/2024</span>
+            <span class="news_categoria">Videojuegos y Aplicaciones</span>
+            <h3 class="news_title2">
+              Te damos la bienvenida a la Liga Combates GO: Un Mundo Maravilloso
+            </h3>
+            <p class="news_text">
+              La nueva temporada de combates en Pokemon Go nos trae nuevos
+              ataques y muchas oportunidades para usarlos
+            </p>
+          </a>
+          <a href="#" class="news_article news_article2" data-categoria="anime">
+            <img
+              src="image/news9.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">10/enero/2024</span>
+            <span class="news_categoria">Dibujos Animados</span>
+            <h3 class="news_title2">
+              Cuestionario de la serie Viajes Definitivos Pokémon
+            </h3>
+            <p class="news_text">
+              ¿Recuerdas al dedillo los épicos eventos de la temporada 25 de la
+              serie Pokémon?
+            </p>
+          </a>
+          <a href="#" class="news_article news_article2" data-categoria="carta">
+            <img
+              src="image/news5.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">22/febrero/2024</span>
+            <span class="news_categoria">Juego de Cartas Coleccionables</span>
+            <h3 class="news_title2">
+              Un primer vistazo a las cartas de la expansión Escarlata y
+              Púrpura-Fuerzas Temporales de JCC Pokémon
+            </h3>
+            <p class="news_text">
+              Descubre una nueva carta de AS TÁCTICO, Ferrotesta debuta como
+              Pokémon ex y mucho más en la nueva expansión
+            </p>
+          </a>
+          <a href="#" class="news_article news_article2" data-categoria="anime">
+            <img
+              src="image/news10.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">13/diciembre/2023</span>
+            <span class="news_categoria">Dibujos Animados</span>
+            <h3 class="news_title2">
+              El cuarto episodio de Pokémon: Vientos de Paldea ya está
+              disponible
+            </h3>
+            <p class="news_text">
+              Embárcate en una aventura Pokémon por la región de Paldea.
+            </p>
+          </a>
+          <a href="#" class="news_article news_article2" data-categoria="juego">
+            <img
+              src="image/news2.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">01/marzo/2024</span>
+            <span class="news_categoria">Videojuegos y aplicaciones</span>
+            <h3 class="news_title2">
+              Dalo todo en el desafio global II de 2024
+            </h3>
+            <p class="news_text">
+              Enfréntate a otros jugadores de Pokémon Escarlata y Pokémon
+              Púrpura y consigue grandes recompensas en el segundo Desafío
+              Global de este año.
+            </p>
+          </a>
+          <a href="#" class="news_article news_article2" data-categoria="anime">
+            <img
+              src="image/news8.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">26/febrero/2024</span>
+            <span class="news_categoria">Dibujos Animados</span>
+            <h3 class="news_title2">
+              La serie Horizontes Pokémon debuta en Boing
+            </h3>
+            <p class="news_text">
+              Te aguarda una nueva aventura con apasionantes amistades, Pokémon
+              y desafíos
+            </p>
+          </a>
+          <a href="#" class="news_article news_article2" data-categoria="carta">
+            <img
+              src="image/news6.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">06/febrero/2024</span>
+            <span class="news_categoria">Juego de Cartas Coleccionables</span>
+            <h3 class="news_title2">
+              Las ilustraciones de la expansión Escarlata y Púrpura-Destinos de
+              Paldea de JCC Pokémon
+            </h3>
+            <p class="news_text">
+              Potencia tus movimientos de ataque físico con la Pasión de Johto
+              de Plata (Neocampeón) y Tyranitar.
+            </p>
+          </a>
+          <a href="#" class="news_article news_article2" data-categoria="juego">
+            <img
+              src="image/news4.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">27/febrero/2024</span>
+            <span class="news_categoria">Videojuegos y aplicaciones</span>
+            <h3 class="news_title2">
+              Celebra el Día de Pokémon con Miraidon en Pokémon UNITE
+            </h3>
+            <p class="news_text">
+              Descarga el poder del trueno sobre tus rivales con este Pokémon
+              legendario de la región de Paldea.
+            </p>
+          </a>
+          <a href="#" class="news_article news_article2" data-categoria="carta">
+            <img
+              src="image/news7.png"
+              alt="imagen-noticia"
+              class="news_image news_image2"
+            />
+            <span class="news_fecha">11/enero/2024</span>
+            <span class="news_categoria">Juego de Cartas Coleccionables</span>
+            <h3 class="news_title2">
+              Anuncio de la rotación del formato Estándar de JCC Pokémon en 2024
+            </h3>
+            <p class="news_text">
+              La rotación del formato Estándar en el juego competitivo de 2024
+              entrará en vigor el 5 de abril de 2024
+            </p>
+          </a>
         </div>
+      </div>
     </section>
 
     <section class="outs">
-        <h2 class="outs_title">Pokemon Destacados</h2>
-        <div class="outs_contenedor">
-            <div class="outs_carrusel">
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/125.png" alt="Electabuzz.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Electabuzz</h3>
-                            <h3 class="outs_title2">125</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="electrico">Electrico</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Elec. Estatica</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/655.png" alt="Delphox.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Delphox</h3>
-                            <h3 class="outs_title2">655</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="fuego">Fuego</span><span class="psiquico">Psiquico</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Mar Llamas</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/262.png" alt="Mightyena.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Mightyena</h3>
-                            <h3 class="outs_title2">262</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="siniestro">Siniestro</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Intimidacion / Pies Rapidos</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/465.png" alt="Tangrowth.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Tangrowth</h3>
-                            <h3 class="outs_title2">465</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="planta">Planta</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Clorofila / Defensa Hoja</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/952.png" alt="Scovillain.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Scovillain</h3>
-                            <h3 class="outs_title2">952</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="planta">Planta</span> <span class="fuego">Fuego</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Clorofila / Insomnio</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/979.png" alt="Annihilape.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Annihilape</h3>
-                            <h3 class="outs_title2">979</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="lucha">Lucha</span> <span class="fantasma">Fantasma</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Fuerza Mental / Espiritu Vital</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/809.png" alt="Melmetal.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Melmetal</h3>
-                            <h3 class="outs_title2">809</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="acero">Acero</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Puño Ferreo</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/554.png" alt="Darumaka.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Darumaka</h3>
-                            <h3 class="outs_title2">554</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="fuego">Fuego</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Entusiasmo</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/656.png" alt="Froakie.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Froakie</h3>
-                            <h3 class="outs_title2">656</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="agua">Agua</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Torrente</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/620.png" alt="Mienshao.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Mienshao</h3>
-                            <h3 class="outs_title2">620</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="lucha">Lucha</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Fuerza Mental / Regeneracion</span>
-                        </p>
-                    </a>
-                </div>
-                <div class="outs_cont">
-                    <a href="#" class="outs_tarjeta">
-                        <img src="image/897.png" alt="Spectrier.png" class="outs_image">
-                        <div class="outs_text">
-                            <h3 class="outs_title2">Spectrier</h3>
-                            <h3 class="outs_title2">897</h3>
-                        </div>
-                        <p class="outs_info">
-                            <b>Tipo:</b>  <span class="fantasma">Fantasma</span> <br>
-                            <b>Habilidad:</b>  <span class="outs_habilidad">Relincho Negro</span>
-                        </p>
-                    </a>
-                </div>
-            </div>
-            <img src="icon/arrow-left.svg" alt="arrow-left.svg" class="outs_flechaIzq">
-            <img src="icon/arrow-right.svg" alt="arrow-right.svg" class="outs_flechaDer">
+      <h2 class="outs_title">Pokemon Destacados</h2>
+      <div class="outs_contenedor">
+        <div class="outs_carrusel">
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img
+                src="image/125.png"
+                alt="Electabuzz.png"
+                class="outs_image"
+              />
+              <div class="outs_text">
+                <h3 class="outs_title2">Electabuzz</h3>
+                <h3 class="outs_title2">125</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="electrico">Electrico</span> <br />
+                <b>Habilidad:</b>
+                <span class="outs_habilidad">Elec. Estatica</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img src="image/655.png" alt="Delphox.png" class="outs_image" />
+              <div class="outs_text">
+                <h3 class="outs_title2">Delphox</h3>
+                <h3 class="outs_title2">655</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="fuego">Fuego</span
+                ><span class="psiquico">Psiquico</span> <br />
+                <b>Habilidad:</b> <span class="outs_habilidad">Mar Llamas</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img src="image/262.png" alt="Mightyena.png" class="outs_image" />
+              <div class="outs_text">
+                <h3 class="outs_title2">Mightyena</h3>
+                <h3 class="outs_title2">262</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="siniestro">Siniestro</span> <br />
+                <b>Habilidad:</b>
+                <span class="outs_habilidad">Intimidacion / Pies Rapidos</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img src="image/465.png" alt="Tangrowth.png" class="outs_image" />
+              <div class="outs_text">
+                <h3 class="outs_title2">Tangrowth</h3>
+                <h3 class="outs_title2">465</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="planta">Planta</span> <br />
+                <b>Habilidad:</b>
+                <span class="outs_habilidad">Clorofila / Defensa Hoja</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img
+                src="image/952.png"
+                alt="Scovillain.png"
+                class="outs_image"
+              />
+              <div class="outs_text">
+                <h3 class="outs_title2">Scovillain</h3>
+                <h3 class="outs_title2">952</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="planta">Planta</span>
+                <span class="fuego">Fuego</span> <br />
+                <b>Habilidad:</b>
+                <span class="outs_habilidad">Clorofila / Insomnio</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img
+                src="image/979.png"
+                alt="Annihilape.png"
+                class="outs_image"
+              />
+              <div class="outs_text">
+                <h3 class="outs_title2">Annihilape</h3>
+                <h3 class="outs_title2">979</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="lucha">Lucha</span>
+                <span class="fantasma">Fantasma</span> <br />
+                <b>Habilidad:</b>
+                <span class="outs_habilidad"
+                  >Fuerza Mental / Espiritu Vital</span
+                >
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img src="image/809.png" alt="Melmetal.png" class="outs_image" />
+              <div class="outs_text">
+                <h3 class="outs_title2">Melmetal</h3>
+                <h3 class="outs_title2">809</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="acero">Acero</span> <br />
+                <b>Habilidad:</b>
+                <span class="outs_habilidad">Puño Ferreo</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img src="image/554.png" alt="Darumaka.png" class="outs_image" />
+              <div class="outs_text">
+                <h3 class="outs_title2">Darumaka</h3>
+                <h3 class="outs_title2">554</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="fuego">Fuego</span> <br />
+                <b>Habilidad:</b> <span class="outs_habilidad">Entusiasmo</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img src="image/656.png" alt="Froakie.png" class="outs_image" />
+              <div class="outs_text">
+                <h3 class="outs_title2">Froakie</h3>
+                <h3 class="outs_title2">656</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="agua">Agua</span> <br />
+                <b>Habilidad:</b> <span class="outs_habilidad">Torrente</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img src="image/620.png" alt="Mienshao.png" class="outs_image" />
+              <div class="outs_text">
+                <h3 class="outs_title2">Mienshao</h3>
+                <h3 class="outs_title2">620</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="lucha">Lucha</span> <br />
+                <b>Habilidad:</b>
+                <span class="outs_habilidad">Fuerza Mental / Regeneracion</span>
+              </p>
+            </a>
+          </div>
+          <div class="outs_cont">
+            <a href="#" class="outs_tarjeta">
+              <img src="image/897.png" alt="Spectrier.png" class="outs_image" />
+              <div class="outs_text">
+                <h3 class="outs_title2">Spectrier</h3>
+                <h3 class="outs_title2">897</h3>
+              </div>
+              <p class="outs_info">
+                <b>Tipo:</b> <span class="fantasma">Fantasma</span> <br />
+                <b>Habilidad:</b>
+                <span class="outs_habilidad">Relincho Negro</span>
+              </p>
+            </a>
+          </div>
         </div>
-        </section>
-        
+        <img
+          src="icon/arrow-left.svg"
+          alt="arrow-left.svg"
+          class="outs_flechaIzq"
+        />
+        <img
+          src="icon/arrow-right.svg"
+          alt="arrow-right.svg"
+          class="outs_flechaDer"
+        />
+      </div>
+    </section>
+
     <footer class="footer">
-        <img src="image/logo.png" alt="logo.png" class="footer_logo">
-        <ul class="footer_list">
-            <li class="footer_li"><a href="#" class="footer_link">Contactanos</a></li>
-            <li class="footer_li"><a href="#" class="footer_link">Acerca de nosotros</a></li>
-            <li class="footer_li"><a href="#" class="footer_link">Politica de privacidad</a></li>
-            <li class="footer_li"><a href="#" class="footer_link">Cookies</a></li>
-        </ul>
+      <img src="image/logo.png" alt="logo.png" class="footer_logo" />
+      <ul class="footer_list">
+        <li class="footer_li">
+          <a href="#" class="footer_link">Contactanos</a>
+        </li>
+        <li class="footer_li">
+          <a href="#" class="footer_link">Acerca de nosotros</a>
+        </li>
+        <li class="footer_li">
+          <a href="#" class="footer_link">Politica de privacidad</a>
+        </li>
+        <li class="footer_li"><a href="#" class="footer_link">Cookies</a></li>
+      </ul>
     </footer>
 
     <!-- Scripts -->
     <script src="js/menu.js"></script>
     <script src="js/newsFilter.js"></script>
     <script src="js/slider.js"></script>
-    
-</body>
+
+  </body>
 </html>
